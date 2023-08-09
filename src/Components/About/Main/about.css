@@ -1,0 +1,14 @@
+.bg_about{
+    background-size: contain;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 130px;
+    background-image: url(../../../assets/aboutbanner.png),linear-gradient(116deg,#1a688e 0%,#43b3e8 100%) !important;
+}
+.bgabou{
+    background-color: #f0f8fc !important;
+}
+.line{
+    line-height: 30px;
+}

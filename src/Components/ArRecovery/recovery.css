@@ -1,0 +1,16 @@
+.bg_recover{
+    background-image: url(../../assets/recoverbg.webp);
+    position: relative;
+    background-color: #fff;
+    background-position: 50%;
+    background-size: 100%;
+    background-size: cover;
+}
+.bg_reco{
+    background-image: url(../../assets/firecover.webp);
+    position: relative;
+    background-color: #fff;
+    background-position: 50%;
+    background-size: 100%;
+    background-size: cover;
+}
