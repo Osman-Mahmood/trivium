@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './header.css'
 import clock from '../../../assets/clock.webp'
 import home from '../../../assets/home.png'
@@ -7,8 +7,11 @@ import vol from '../../../assets/vol.webp'
 import {BiSortDown} from 'react-icons/bi'
 import {AiOutlineDollarCircle,AiOutlineFileSync} from 'react-icons/ai'
 import GST from '../../../assets/GST-.png'
-
+import { NavLink } from 'react-router-dom'
 const Header = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <div className=''>
@@ -21,9 +24,11 @@ const Header = () => {
 
               </p>
               <div className='d-flex gap-3 mt-4'>
+              <NavLink to="contact" className="ms-0 mb-lg-0 mb-3">
                 <button className='btn btn_header text-white p-3'>
                   Schedule a Call
                 </button>
+                </NavLink>
                 {/* <button className='btn btn_header text-white'>
 Schedule Demo
 </button> */}

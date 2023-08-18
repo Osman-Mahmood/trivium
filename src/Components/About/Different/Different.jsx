@@ -1,45 +1,50 @@
 import React from 'react'
 import './different.css'
 import abouticon from '../../../assets/abouticon.png'
+import abouticon2 from '../../../assets/abouticon2.png'
+import abouticon3 from '../../../assets/abouticon3.png'
+import abouticon4 from '../../../assets/abouticon4.png'
+import abouticon5 from '../../../assets/abouticon5.png'
+import abouticon6 from '../../../assets/abouticon6.png'
 const Different = () => {
   return (
     <div className='diff_bg'>
    <div className='container '>
       <div className='row pb-3'>
         <h1 className='clr text-center mt-3 mb-2'>What Makes Us Different?</h1>
-        <div className='col-lg-12 d-flex gap-3'>
-        <div className='col-lg-4 about_box text-center'>
+        <div className='col-lg-12 d-lg-flex d-block gap-3'>
+        <div className='col-lg-4 col-12 about_box text-center mb-lg-0 mb-3'>
 <img src={abouticon} alt="" className='img-fluid'/>
 <h5 className='mt-2'>88%</h5>
 <p>First Pass Clean Claims Rate</p>
         </div>
-        <div className='col-lg-4 about_box text-center'>
-<img src={abouticon} alt="" className='img-fluid'/>
-<h5 className='mt-2'>88%</h5>
-<p>First Pass Clean Claims Rate</p>
+        <div className='col-lg-4 col-12 about_box text-center mb-lg-0 mb-3'>
+<img src={abouticon2} alt="" className='img-fluid'/>
+<h5 className='mt-2'>15-20%</h5>
+<p>Revenue Increase</p>
         </div>
-        <div className='col-lg-4 about_box text-center'>
-<img src={abouticon} alt="" className='img-fluid'/>
-<h5 className='mt-2'>88%</h5>
-<p>First Pass Clean Claims Rate</p>
+        <div className='col-lg-4 col-12 about_box text-center mb-lg-0 mb-3'>
+<img src={abouticon3} alt="" className='img-fluid'/>
+<h5 className='mt-2'>30%</h5>
+<p>Reduction in A/R</p>
         </div>
         </div>
 
-        <div className='col-lg-12 mt-lg-2 mt-0 d-flex gap-3'>
-        <div className='col-lg-4 about_box text-center'>
-<img src={abouticon} alt="" className='img-fluid'/>
-<h5 className='mt-2'>88%</h5>
-<p>First Pass Clean Claims Rate</p>
+        <div className='col-lg-12 mt-lg-2 mt-0 d-lg-flex d-block gap-3'>
+        <div className='col-lg-4 col-12 about_box text-center mb-lg-0 mb-3'>
+<img src={abouticon4} alt="" className='img-fluid'/>
+<h5 className='mt-2'>7-14</h5>
+<p>Days Turn Around Time</p>
         </div>
-        <div className='col-lg-4 about_box text-center'>
-<img src={abouticon} alt="" className='img-fluid'/>
-<h5 className='mt-2'>88%</h5>
-<p>First Pass Clean Claims Rate</p>
+        <div className='col-lg-4 col-12 about_box text-center mb-lg-0 mb-3'>
+<img src={abouticon5} alt="" className='img-fluid'/>
+<h5 className='mt-2'>90%+</h5>
+<p>Collection Ratios</p>
         </div>
-        <div className='col-lg-4 about_box text-center'>
-<img src={abouticon} alt="" className='img-fluid'/>
-<h5 className='mt-2'>88%</h5>
-<p>First Pass Clean Claims Rate</p>
+        <div className='col-lg-4 col-12 about_box text-center mb-lg-0 mb-3'>
+<img src={abouticon6} alt="" className='img-fluid'/>
+<h5 className='mt-2'>↓ 10%</h5>
+<p>120+ AR</p>
         </div>
         </div>
         

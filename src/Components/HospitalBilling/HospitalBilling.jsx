@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import hospital from '../../assets/hospital.webp'
 import './hospital.css'
 import hospitalicon from '../../assets/hospitalicon.webp'
@@ -7,158 +7,122 @@ import hospital3 from '../../assets/hospital3.webp'
 import hospital4 from '../../assets/hospital4.webp'
 import hospital5 from '../../assets/hospital5.webp'
 const HospitalBilling = () => {
-  return (
-    <>
-     <div className='diff_bg p-lg-5 p-2'>
-        <div className='container'>
-            <div className='row align-items-center'>
-            <div className='col-lg-6 col-12'>
-<h1>Hospital Revenue Cycle Management</h1>
-<p>Medcare MSO offers a comprehensive range of hospital billing solutions to meet the unique needs of your healthcare organization. We provide hospital revenue cycle management services, medical accounts receivable (AR recovery services), electronic health record/electronic medical record (EHR/EMR) technologies, practice management and patient engagement solutions.</p>
-         <button className='btn btn_demo'>Increase Collections</button>
-            </div>
-            <div className='col-lg-6 col-12 text-center'>
-<img src={hospital} alt="" className='img-fluid img_size'/>
-</div>
-            </div>
-      
-        </div>
-    </div>
-    <div className='container'>
-        <div className='row pt-4'>
-            <div className='col-lg-12 d-lg-flex d-block gap-2'>
-            <div className='col-lg-3 col-12 revenue_box text-center'>
-<img src={hospitalicon} alt="" />
-<p className='mt-2'>Started On</p>
-<h5 className='clr'>April 1st, 2019</h5>
-</div>
-<div className='col-lg-3 col-12 revenue_box text-center'>
-<img src={hospitalicon} alt="" />
-<p className='mt-2'>Started On</p>
-<h5 className='clr'>April 1st, 2019</h5>
-</div>
-<div className='col-lg-3 col-12 revenue_box text-center'>
-<img src={hospitalicon} alt="" />
-<p className='mt-2'>Started On</p>
-<h5 className='clr'>April 1st, 2019</h5>
-</div>
-<div className='col-lg-3 col-12 revenue_box text-center'>
-<img src={hospitalicon} alt="" />
-<p className='mt-2'>Started On</p>
-<h5 className='clr'>April 1st, 2019</h5>
-</div>
-            </div>
-        </div>
-       
-    </div>
-    <div className='diff_bg p-lg-5 p-2'>
-        <div className='container'>
-            <div className='row align-items-center'>
-            <div className='col-lg-6 col-12'>
-<h2 className='clr'>Freeing Up Resources and Reducing Billing Administration</h2>
-<p>Medcare MSO offers a comprehensive range of hospital billing solutions to meet the unique needs of your healthcare organization. We provide hospital revenue cycle management services, medical accounts receivable (AR recovery services), electronic health record/electronic medical record (EHR/EMR) technologies, practice management and patient engagement solutions.</p>
-         <button className='btn btn_demo'>Schedule Demo</button>
-            </div>
-            <div className='col-lg-6 col-12 text-center'>
-<img src={hospital2} alt="" className='img-fluid img_size'/>
-</div>
-            </div>
-      
-        </div>
-    </div>
-    <div className='p-lg-5 p-2'>
-        <div className='container'>
-            <div className='row align-items-center'>
-            <div className='col-lg-6 col-12'>
-<h2 className='clr'>We Recover Your Lost Income</h2>
-<p>Inefficient billing systems account for billions of lost dollars every year. In fact, the overwhelming majority of claims contain errors that require reprocessing. Medcare MSO stays up to date on the frequent changes to regulations and compliance requirements for efficient hospital billing solutions and collection services. Our billing staff provides a full range of personalized, custom-tailored hospital billing services to ensure error-free claims and maximized recovery.</p>
-         <button className='btn btn_demo'>Schedule Demo</button>
-            </div>
-            <div className='col-lg-6 col-12 text-center'>
-<img src={hospital3} alt="" className='img-fluid'/>
-</div>
-            </div>
-      
-        </div>
-    </div>
-    <div className='diff_bg p-lg-5 p-2'>
-        <div className='container'>
-            <div className='row align-items-center'>
-            <div className='col-lg-6 col-12 text-center'>
-<img src={hospital4} alt="" className='img-fluid '/>
-</div>
-            <div className='col-lg-6 col-12'>
-<h2 className='clr'>
-We Eliminate Common Errors and Handle Claim Denials</h2>
-<p>As a hospital billing company, we understand that even the most minute errors trigger claim rejections, and every claim that requires reprocessing is costing you valuable resources. If your current medical billing is done in-house, every repeated claim submission increases overhead expenses and results in profit loss. Physicians, nurses, and staff members are often tasked with trying to understand and fix costly hospital billing errors. The time spent on administrative tasks takes away from patient care and places an unnecessary burden on hospital personnel.</p>
-         <button className='btn btn_demo'>Schedule Demo</button>
-            </div>
-      
-            </div>
-      
-        </div>
-    </div>
-    <div className=' p-lg-5 p-2'>
-        <div className='container'>
-            <div className='row align-items-center'>
-            <div className='col-lg-6 col-12 text-center'>
-<img src={hospital5} alt="" className='img-fluid '/>
-</div>
-            <div className='col-lg-6 col-12'>
-<h2 className='clr'>
-We Are Committed to Your Success</h2>
-<p>At Medcare MSO, we take a comprehensive, all-inclusive approach to the hospital billing and collection process. Not only do we employ the best and brightest minds, but we also invest in the latest medical billing technologies to provide unparalleled services.. As a hospital billing company, our internal quality control measures ensure accurate claims and an error-free billing process, the first time.
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    return (
+        <>
+            <div className='diff_bg p-lg-5 p-2'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+                        <div className='col-lg-6 col-12'>
+                            <h1>Hospital Revenue Cycle Management</h1>
+                            <p>For your healthcare organization's particular demands, Trivium MBS offers a wide variety of hospital billing solutions. We provide practice management, patient engagement, electronic health record/electronic medical record (EHR/EMR) technology, hospital revenue cycle management services, and medical accounts receivable (AR recovery) services.</p>
+                            <button className='btn btn_demo'>Increase Collections</button>
+                        </div>
+                        <div className='col-lg-6 col-12 text-center'>
+                            <img src={hospital} alt="" className='img-fluid img_size' />
+                        </div>
+                    </div>
 
-We offer end-to-end services from pre-admission procedures to coding, AR management, collections and follow-up, to detailed real-time reporting. Our hospital clients see reduced operating costs, increased reimbursements and collection ratio, and recovery of AR accounts dating as far back as a full year. Ignored claims, denials, and underpayments can significantly affect your hospital’s revenue stream and bottom line, which can negatively impact your primary focus—patient care. With an increase in the number of insured Americans, accurate charge entry with appropriate billing codes is more critical to institutional billing than ever before.
-
-Looking for Revenue Impact? Speak to us!
-Contact Us Now
-Our Services
-
-Medical Billing
-Laboratory Billing
-Physician Billing
-AR Recovery Services
-Imaging Billing
-Hospital Billing
-Specialties
-
-Rehab
-Oncology
-Psychiatric
-Wound Care
-Dermatology
-Cardiology
-
-Quick Links
-
-Home
-About Us
-Contact Us
-Testimonial
-Blog
-States
-
-Keep Connected
-
-Name
-Your Email
-Subscribe
-© 2023 – MEDCARE MSO
-
-Return Policy | Sitemap | Privacy Policy
-
-</p>
-         <button className='btn btn_demo'>Schedule Demo</button>
+                </div>
             </div>
-      
+            {/* <div className='container'>
+                <div className='row pt-4'>
+                    <div className='col-lg-12 d-lg-flex d-block gap-2'>
+                        <div className='col-lg-3 col-12 revenue_box text-center'>
+                            <img src={hospitalicon} alt="" />
+                            <p className='mt-2'>Started On</p>
+                            <h5 className='clr'>April 1st, 2019</h5>
+                        </div>
+                        <div className='col-lg-3 col-12 revenue_box text-center'>
+                            <img src={hospitalicon} alt="" />
+                            <p className='mt-2'>Started On</p>
+                            <h5 className='clr'>April 1st, 2019</h5>
+                        </div>
+                        <div className='col-lg-3 col-12 revenue_box text-center'>
+                            <img src={hospitalicon} alt="" />
+                            <p className='mt-2'>Started On</p>
+                            <h5 className='clr'>April 1st, 2019</h5>
+                        </div>
+                        <div className='col-lg-3 col-12 revenue_box text-center'>
+                            <img src={hospitalicon} alt="" />
+                            <p className='mt-2'>Started On</p>
+                            <h5 className='clr'>April 1st, 2019</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div> */}
+            <div className='diff_bg p-lg-5 p-2'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+                        <div className='col-lg-6 col-12'>
+                            <h2 className='clr'>Resource Allocation and Billing Administration Reduction</h2>
+                            <p>To fulfill the specific requirements of your healthcare institution, Trivium MBS provides a wide variety of hospital billing solutions. We provide practice management, patient engagement, electronic health record/electronic medical record (EHR/EMR) technology, medical accounts receivable (AR recovery services), and hospital revenue cycle management services.</p>
+                            <button className='btn btn_demo'>Schedule Demo</button>
+                        </div>
+                        <div className='col-lg-6 col-12 text-center'>
+                            <img src={hospital2} alt="" className='img-fluid img_size' />
+                        </div>
+                    </div>
+
+                </div>
             </div>
-      
-        </div>
-    </div>
-    </>
-   
-  )
+            <div className='p-lg-5 p-2'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+                        <div className='col-lg-6 col-12'>
+                            <h2 className='clr'>We Heal. Your lost revenue</h2>
+                            <p>Each year, billions of dollars are lost as a result of ineffective billing systems. In actuality, the vast majority of claims have processing flaws that need to be fixed. For effective hospital billing and collection services, Trivium MBS keeps up with the frequently changing legislation and compliance standards. To ensure error-free claims and maximum recovery, our billing department offers a comprehensive variety of individualized, specially designed hospital billing services.</p>
+                            {/* <button className='btn btn_demo'>Schedule Demo</button> */}
+                        </div>
+                        <div className='col-lg-6 col-12 text-center'>
+                            <img src={hospital3} alt="" className='img-fluid' />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div className='diff_bg p-lg-5 p-2'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+                        <div className='col-lg-6 col-12 text-center'>
+                            <img src={hospital4} alt="" className='img-fluid ' />
+                        </div>
+                        <div className='col-lg-6 col-12'>
+                            <h2 className='clr'>
+                                We handle claim denials and do away with common mistakes.</h2>
+                            <p>As a medical billing business, we are aware that even the smallest mistakes may result in claim denials, and every claim that needs to be reprocessed costs you money. If you currently handle all of your medical billing internally, each time a claim is submitted, overhead costs rise and you lose money. It is frequently the responsibility of doctors, nurses, and other staff members to identify and correct expensive hospital billing problems. The time spent on administrative chores detracts from the time spent caring for patients and adds extra stress to medical staff.</p>
+                            {/* <button className='btn btn_demo'>Schedule Demo</button> */}
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div className=' p-lg-5 p-2'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+                        <div className='col-lg-6 col-12 text-center'>
+                            <img src={hospital5} alt="" className='img-fluid ' />
+                        </div>
+                        <div className='col-lg-6 col-12'>
+                            <h2 className='clr'>
+                                We Care About Your Success</h2>
+                            <p>At Trivium MBS, we address the hospital billing and collection process from every angle. In addition to hiring the most talented individuals, we also make significant investments in cutting-edge medical billing software to deliver services that are unmatched. Our internal quality control procedures assure correct claims and a flawless billing process the first time around as a hospital billing business. From pre-admission processes through coding, AR management, collections and follow-up, to precise real-time reporting, we provide end-to-end services. Reduced operational expenses, improved reimbursement and collection ratios, and the recovery of accounts receivable going back as long as a full year are among benefits that our hospital clients experience. The income stream and financial health of your hospital can be greatly impacted by unpaid claims, denied claims, and underpayments. It may have an adverse effect on your main objective, patient care. Accurate charge input with the proper billing codes is now more important than ever for institutional billing due to the rise in the number of insured Americans. Looking for Impact on Revenue? Contact us! Call Us Right Now We Provide Healthcare Billing Billing for laboratories Services for Physician Billing and AR Recovery Billing Image Specialties in Hospital Billing Rehab Oncology Mental Health Wound Care Dermatology Cardiology Rapid Links Home What We Do Message Us Blog Testimonials State Keep in touch Your Email Name Subscribe - Trivium MBS in 2023 Sitemap, Return Policy, and Privacy Statement
+
+                            </p>
+                            <button className='btn btn_demo'>Schedule Demo</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </>
+
+    )
 }
 
 export default HospitalBilling

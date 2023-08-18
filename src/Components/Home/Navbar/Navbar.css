@@ -1,6 +1,9 @@
 .logo{
-  height: 50px;
-  width: 123px;
+  height: 63px;
+  width: 163px;
+}
+.dropdown-menu.show{
+  width: 230px !important;
 }
 .btn_demo{
     /* background-image: linear-gradient(90deg,#1a688e 0%,#43b3e8 100%); */

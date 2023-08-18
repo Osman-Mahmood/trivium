@@ -33,9 +33,8 @@ const Choose = () => {
             </div>
             <div className='col-lg-6'>
                 {/* <p className='mb-0'>Why Choose Us?</p> */}
-                <h2 className='clr'>The most comprehensive revenue cycle management solutions for medical practices based on technology and custom solutions</h2>
-                <p className=''>Trivium Medical Billing, we can help you achieve greater profitability while at the same time freeing up your time to focus on patients. Our innovative and dynamic medical billing service helps you to achieve a high level of effectiveness that will result in the enhancement of overall practice management. You will see dramatic change in the speed of your revenue cycle because we invest more time and resources into the initial claim process to avoid costly time delays and denials on the back end.
-We also use the latest technology and experienced personnel to anticipate and prevent coding and billing errors while maximizing output. Our investment in the initial claim process helps to accelerate revenue cycles, and our advanced technology and experienced personnel minimize coding and billing errors for increased efficiency.
+                <h2 className='clr'>Using technology and unique solutions, the most complete revenue cycle management solutions are available for medical offices.</h2>
+                <p className=''>Trivium MBS can increase your profitability while giving you more time to devote to your patients. Your practice management will improve as a result of the high degree of efficacy you can accomplish with the help of our creative and dynamic medical billing solution. Because we put more time and effort into the initial claim process to minimize expensive time delays and denials on the back end, you will notice a substantial shift in the speed of your revenue cycle. To anticipate and minimize coding and billing problems while optimizing output, we also make use of cutting-edge technology and knowledgeable staff. Our investment in the preliminary claim procedure is beneficial.
 
 
 </p>

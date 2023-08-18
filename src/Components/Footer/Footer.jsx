@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='footer mt-3 p-5'>
@@ -8,36 +9,76 @@ const Footer = () => {
    <div className='col-lg-3 col-12'>
 <h5 className='text-white'>Our Services</h5>
 <ul className='p-0 footer_ul'>
-    <li>Medical Billing</li>
+   <NavLink to="medical">
+   <li>Medical Billing</li>
+    </NavLink> 
+    <NavLink to="laboratory">
     <li>Laboratory Billing</li>
-    <li>Physician Billing</li>
+    </NavLink>
+    <NavLink to="surgery">
+    <li>Ambulatory Surgery</li>
+    </NavLink>
+    <NavLink to="recovery">
     <li>AR Recovery Services</li>
+    </NavLink>
+    <NavLink to="imaging">
     <li>Imaging Billing</li>
+    </NavLink>
+    <NavLink to="hospital">
     <li>Hospital Billing</li>
-</ul>
+    </NavLink>
+    </ul>
    </div>
    <div className='col-lg-3 col-12'>
 <h5 className='text-white'>Specialties</h5>
 <ul className='p-0 footer_ul'>
-    <li>Rehab
+<NavLink to="/sepcial/hepatology">
+<li>Hepatology
 </li>
-    <li>Oncology
+</NavLink>
+<NavLink to="/sepcial/oncology">
+<li>Oncology
 </li>
-    <li>Psychiatric</li>
-    <li>Wound Care</li>
-    <li>Dermatology</li>
-    <li>Cardiology</li>
+</NavLink>
+
+<NavLink to="/sepcial/psychiatric">
+<li>Psychiatric</li>
+</NavLink>
+<NavLink to="/sepcial/urology">
+<li>Urology</li>
+</NavLink>
+<NavLink to="/sepcial/dermatology">
+<li>Dermatology</li>
+</NavLink>
+<NavLink to="/sepcial/cardiology">
+
+   
+<li>Cardiology</li>
+</NavLink>
+  
+   
+  
 </ul>
    </div>
    <div className='col-lg-3 col-12'>
 <h5 className='text-white'>Quick Links</h5>
 <ul className='p-0 footer_ul'>
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Contact Us</li>
-    <li>Testimonial</li>
-    <li>Blog</li>
-    <li>States</li>
+<NavLink to="/">
+<li>Home</li>
+</NavLink>
+<NavLink to="about">
+<li>About Us</li>
+</NavLink>
+<NavLink to="contact">
+<li>Contact Us</li>
+</NavLink>
+
+
+
+   
+    
+    
+   
 </ul>
    </div>
    <div className='col-lg-3 col-12'>

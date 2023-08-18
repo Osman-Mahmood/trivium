@@ -4,6 +4,7 @@ import specialicon1 from '../../../assets/specialicon1.png'
 import {GiStickingPlaster,GiHiveMind,GiHeartOrgan} from 'react-icons/gi'
 import {FaWheelchair,FaViruses,FaHands,FaPeopleArrows} from 'react-icons/fa'
 import {ImLab} from 'react-icons/im'
+import { NavLink } from 'react-router-dom'
 const Specialist = () => {
   return (
     <div className='container'>
@@ -13,28 +14,39 @@ const Specialist = () => {
         <div className='row justify-content-between gap-1'>
             <div className='col-lg-12 d-lg-flex d-block gap-3'>
             <div className='col-lg-3 p-2 mb-2 revenue_box text-center'>
-    {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
-    <GiStickingPlaster className="icon_height mb-3"/>
+                <NavLink to="/sepcial/hepatology" className="ms-0">
+
+                <GiStickingPlaster className="icon_height mb-3"/>
     <p className='text-center mb-0'>
-Wound Care</p>
+    Hepatology</p>
+                </NavLink>
+  
 </div>
 <div className='col-lg-3 p-2 mb-2 revenue_box text-center'>
-    {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
+    <NavLink to="/sepcial/cardiology" className="ms-0">
     <FaWheelchair className="icon_height mb-3" />
     <p className='text-center mb-0'>
-    DME</p>
+    Sepcial/Sepatology</p>
+    </NavLink>
+   
 </div>
 <div className='col-lg-3 p-2 mb-2 revenue_box text-center'>
-    {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
+    <NavLink to="/sepcial/generalsurgery" className="ms-0">
     <FaViruses className="icon_height mb-3" />
     <p className='text-center mb-0'>
-OB/GYN</p>
+    General Surgery</p>
+    </NavLink>
+  
 </div>
 <div className='col-lg-3 p-2 mb-2 revenue_box text-center'>
+<NavLink to="/sepcial/oncology" className="ms-0">
     {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
-    <FaHands className="icon_height mb-3"/>
-    <p className='text-center mb-0'>
+    <FaHands className="icon_height mb-3 text-center"/>
+ 
+    <p className='text-center mb-0 '>
 Oncology</p>
+    </NavLink>
+   
 </div>
             </div>
 
@@ -42,34 +54,45 @@ Oncology</p>
         <div className='row justify-content-between gap-1 mt-lg-3 mt-0'>
             <div className='col-lg-12 d-lg-flex d-block gap-3'>
             <div className='col-lg-3 p-2 revenue_box text-center'>
-    {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
-    <FaPeopleArrows className="icon_height mb-3"/>
+                <NavLink to="/sepcial/psychology" className="ms-0">
+                <FaPeopleArrows className="icon_height mb-3"/>
     <p className='text-center mb-0'>
-    Rehab</p>
+        Psychology
+</p>
+                </NavLink>
+  
 </div>
 <div className='col-lg-3 mb-2 p-2 revenue_box text-center'>
-    {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
+    <NavLink to="/sepcial/dermatology" className="ms-0">
     <GiHiveMind className="icon_height mb-3" />
     <p className='text-center mb-0'>
     Dermatology</p>
+    </NavLink>
+   
 </div>
 <div className='col-lg-3 mb-2 p-2 revenue_box text-center'>
-    {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
+    <NavLink to="/sepcial/prostheses" className="ms-0">
     <GiHeartOrgan className="icon_height mb-3"/>
     <p className='text-center mb-0'>
-    Cardiology</p>
+        Prostheses
+    </p>
+    </NavLink>
+   
 </div> 
 <div className='col-lg-3  mb-2 p-2 revenue_box text-center'>
-    {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
-    <ImLab className="icon_height mb-3"/>
+        <NavLink to="/sepcial/traumatology" className="ms-0">
+        <GiHeartOrgan className="icon_height mb-3"/>
     <p className='text-center mb-0'>
-    Urology
-Urology</p>
+    Traumatology</p>
+        </NavLink>
 </div>
 
             </div>
 <div className='text-end pt-3'>
-<button className='btn btn_demo text-white'>View All Specialties</button>
+    <NavLink to="/sepcial">
+    <button className='btn btn_demo text-white'>View All Specialties</button>
+    </NavLink>
+
 </div>
           
 

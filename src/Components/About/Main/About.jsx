@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './about.css'
 import about2 from '../../../assets/about2.webp'
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
      <div className=''>
@@ -18,11 +21,11 @@ const About = () => {
         <div className='row'>
             <div className='col-lg-8 col-12 pt-5'>
               
-<h1 className='clr'>REVENUE CYCLE - SERVICES. TECHNOLOGY. </h1>
-<p className='line'>Since 2013, Access Healthcare has been a trusted partner to healthcare institutions by providing Revenue Cycle solutions to enhance clinical outcomes, improve financial performance and optimize operations. We apply our revenue cycle expertise, technology solutions, automation platform, analytics, and best practices to deliver market-leading results. In short, we manage the business of healthcare for our clients. </p>
-<h1 className='clr'>A committed, trusted partner focused on transforming healthcare outcomes through technology and knowledge. </h1>
-<p className='mb-3'>Over 150 healthcare institutions – hospitals and healthcare systems, physician and independent non-acute care practices, RCM software vendors, and revenue cycle aggregators – trust us with their revenue cycle. We reduce costs and accelerate cash flow with more efficient billing, medical coding, payments, and collections processes. We apply technology and best practices to elevate clinical, administrative, and financial processes so our clients can focus on providing high-quality, timely patient care. </p>
-<p className=''>For health plans, we provide the full cycle of outsourced services, including member enrollment and engagement, claims administration, provider enrollment and engagement, </p>
+<h1 className='clr'> Services. Technology. Revenue Cycle.            </h1>
+<p className='line'>By offering Revenue Cycle solutions to improve clinical results, boost financial performance, and streamline operations, Trivium MBS has been a dependable partner to healthcare organizations since 2013. Delivering market-leading outcomes requires the application of our revenue cycle experience, technology solutions, automation platform, analytics, and best practices. In a nutshell, we oversee our clients' healthcare operations.</p>
+<h1 className='clr'>A dedicated, reliable partner with a mission to improve healthcare outcomes by leveraging knowledge and technology.</h1>
+<p className='mb-3'>We have the trust of more than 150 healthcare organizations, including hospitals, healthcare systems, independent medical practices, and providers of RCM software. With more effective billing, coding, payments, and collections procedures, we lower costs and quicken cash flow. To improve clinical, administrative, and financial processes so that our clients can concentrate on offering timely, high-quality patient care, we use technology and best practices.</p>
+<p className=''>We offer health plans the full range of outsourced services, including provider enrollment and engagement, claims administration, member enrollment and engagement, and provider engagement.</p>
 
 <button className='btn btn_demo text-white'>Request a Consultation</button>
             </div>

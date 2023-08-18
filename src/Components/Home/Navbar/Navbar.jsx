@@ -8,6 +8,8 @@ import {NavLink} from 'react-router-dom'
 import './Navbar.css'
 // import './Navigation.css'
 const Navigation = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     const [scrolled, setScrolled] = useState(false);
     const handleScroll = () => {
         const offset = window.scrollY
@@ -30,11 +32,13 @@ const Navigation = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto justify-content-center align-items-center flex-grow-1 pe-3 res_nav">
+                    <Nav className="me-auto justify-content-lg-center justify-content-center align-items-lg-center align-items-start flex-grow-1 pe-3 res_nav">
                         <NavLink className="center" to="/">Home</NavLink>
                         <NavLink className="center" to="about">About</NavLink>
                         {/* <NavLink className="center" to="service">Services</NavLink> */}
-                        <NavDropdown title="Services" id="basic-nav-dropdown" className="dropdown-hover p-0">
+                        <NavDropdown title="Services" id="basic-nav-dropdown" className="dropdown-hover p-0"   show={isOpen}
+            onMouseEnter={() => setIsOpen(true)}
+            onMouseLeave={() => setIsOpen(false)}>
               <NavLink to="medical">Medical Billing</NavLink> <br />
             
               <NavLink to="imaging">Imaging Billing</NavLink> <br />
@@ -46,6 +50,24 @@ const Navigation = () => {
               <NavLink to="recovery">
               AR Recovery
               </NavLink>
+              <br />
+              <NavLink to="laboratory">
+              Laboratory Billing 
+              </NavLink>
+              <br />
+              <NavLink to="covery">
+              
+Coverage Discovery
+              </NavLink>
+              <br />
+              <NavLink to="surgery">Ambulatory Surgery 
+                            </NavLink>
+                            <br />
+                            <NavLink to="workforce">Staffing and Workforce
+                            </NavLink>
+                            <br />
+                            <NavLink to="physical">Physician Billing 
+                            </NavLink>
             </NavDropdown>
                         <NavLink className="center" to="sepcial">
                           Specialties

@@ -1,5 +1,7 @@
 import React from 'react'
 import phone from '../../assets/phone.png'
+import fax from '../../assets/fax.png'
+import email from '../../assets/email.png'
 const ContactForm = () => {
   return (
     <div className='container pt-5'>
@@ -27,7 +29,7 @@ Business Name</label>
                     </div>
                     <div className=''>
                     <label for="exampleInputEmail1" class="form-label">
-Business Name</label>
+Phone</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                 </div>
@@ -45,38 +47,38 @@ Business Name</label>
                 </div>
                 <div className='col-lg-6 col-12'>
 <h2 className='clr'>ADDRESS</h2>
-<h2>New Mexico Office</h2>
-<p>150 Washington Avenue Suite #201, Santa Fe New Mexico 87501</p>
+<h2>312 W 2nd Street Unit A779 Casper, Wy 82601</h2>
+{/* <p>150 Washington Avenue Suite #201, Santa Fe New Mexico 87501</p>
 <h2>California Office</h2>
 <p>18001 Sky Park Cir Suite R Irvine, CA 92614
 
 </p>
-<h2>Find Us on Map</h2>
+<h2>Find Us on Map</h2> */}
                 </div>
       </div>
       <div className='row mt-5'>
         <div className='col-lg-12 d-lg-flex d-block gap-3'>
             <div className='col-lg-3 revenue_box text-center'>
-                <img src={phone} alt="" className='img-fluid'/>
+                <img src={phone} alt="" className='img-fluid mb-3'/>
                 <p>Phone</p>
                 <p>+1 800 640 6409</p>
 
             </div>
             <div className='col-lg-3 revenue_box text-center'>
-                <img src={phone} alt="" className='img-fluid'/>
-                <p>Phone</p>
+                <img src={fax} alt="" className='img-fluid mb-3'/>
+                <p>Fax</p>
                 <p>+1 800 640 6409</p>
 
             </div>
             <div className='col-lg-3 revenue_box text-center'>
-                <img src={phone} alt="" className='img-fluid'/>
-                <p>Phone</p>
+                <img src={email} alt="" className='img-fluid mb-3'/>
+                <p>For Sales</p>
                 <p>+1 800 640 6409</p>
 
             </div>
             <div className='col-lg-3 revenue_box text-center'>
-                <img src={phone} alt="" className='img-fluid'/>
-                <p>Phone</p>
+                <img src={email} alt="" className='img-fluid mb-3'/>
+                <p>For Info</p>
                 <p>+1 800 640 6409</p>
 
             </div>

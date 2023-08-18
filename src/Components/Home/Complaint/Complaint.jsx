@@ -1,6 +1,7 @@
 import React from 'react'
 import hipo from '../../../assets/hipo.png'
 import './complain.css'
+import { NavLink } from 'react-router-dom'
 const Complaint = () => {
   return (
     <div className='complain_bg'>
@@ -14,7 +15,10 @@ const Complaint = () => {
                 <p>For immediate service, give us a call at <strong>800-640-6409</strong> .</p>
                 <p>To ensure the security and privacy of patient information our company is in contract with one of the best IT security firms who have the latest encryption and data protection protocols in place.
 </p>
-                <button className='btn btn_demo text-white p-5'> Demo</button>
+<NavLink to="contact" className="ms-0">
+<button className='btn btn_demo text-white p-5'> Demo</button>
+</NavLink>
+               
                 </div>
         </div>
     </div>

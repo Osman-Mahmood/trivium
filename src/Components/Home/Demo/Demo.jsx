@@ -67,7 +67,7 @@ Business Name</label>
                     </div>
                     <div className=''>
                     <label for="exampleInputEmail1" class="form-label text-dark">
-Business Name</label>
+Phone</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                 </div>

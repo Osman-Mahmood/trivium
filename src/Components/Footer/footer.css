@@ -2,9 +2,9 @@ li{
     list-style: none;
 }
 .footer{
-    background-color: #01517a !important;
+    background-color: #818c94 !important;
 }
 .footer_ul li{
-    color: #e1dbdb !important;
+    color: white !important;
     cursor: pointer;
 }
