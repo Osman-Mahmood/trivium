@@ -1,12 +1,17 @@
 import React, { useEffect } from 'react'
+import lab1 from '../../assets/lab1.png'
+import lab2 from '../../assets/lab2.png'
+import lab3 from '../../assets/lab3.png'
+import lab4 from '../../assets/lab4.png'
+import lab5 from '../../assets/lab5.png'
 import hospital2 from '../../assets/hospital2.webp'
-import hospitalicon from '../../assets/hospitalicon.webp'
 // import './recovery.css'
 import recovery2 from '../../assets/recovery1.png'
 import recovery4 from '../../assets/recovery4.png'
 import recovery3 from '../../assets/recovery3.webp'
 import recovery5 from '../../assets/recovery5.png'
 import recoveryicon from '../../assets/recoveryicon.webp'
+import { NavLink } from 'react-router-dom'
 const Laboratory = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,25 +27,44 @@ const Laboratory = () => {
         </div>
         <div className='container'>
           <div className='row pt-4'>
-            <div className='col-lg-12 d-lg-flex d-block gap-2'>
-              <div className='col-lg-3 col-12 revenue_box text-center'>
-                <img src={hospitalicon} alt="" />
-                <h5 className='mt-2'>Order and Demographic Management</h5>
-              </div>
-              <div className='col-lg-3 col-12 revenue_box text-center'>
-                <img src={hospitalicon} alt="" />
+            <div className='col-lg-12 d-lg-flex justify-content-center d-block gap-3'>
+              <NavLink to="/laboratory/census">
+              <div className='col-lg-12 col-12 revenue_box text-center'>
+              
+              <img src={lab1} alt="" />
+              <h5 className='mt-2'>Order and Demographic Management</h5>
+            </div>
+              </NavLink>
+        <NavLink to="/sepcial/toxicology">
+        <div className='col-lg-12 col-12 revenue_box text-center'>
+                <img src={lab2} alt="" />
 
-                <h5 className='mt-2'>Toxicology</h5>
+                <h5 className='mt-2 mb-5'>Toxicology</h5>
               </div>
-              <div className='col-lg-3 col-12 revenue_box text-center'>
-                <img src={hospitalicon} alt="" />
+        </NavLink>
+              <NavLink to="/sepcial/molecularlab">
+              <div className='col-lg-12 col-12 revenue_box text-center'>
+                <img src={lab3} alt="" />
 
-                <h5 className='mt-2'>Molecular</h5>
+                <h5 className='mt-2 mb-5'>Molecular</h5>
               </div>
-              <div className='col-lg-3 col-12 revenue_box text-center'>
-                <img src={hospitalicon} alt="" />
-                <h5 className='mt-2'>Clinical</h5>
+              </NavLink>
+              <NavLink to="/sepcial/clinical">
+              <div className='col-lg-12 col-12 revenue_box text-center'>
+                <img src={lab4} alt="" />
+                <h5 className='mt-2 mb-5'>Clinical</h5>
               </div>
+              </NavLink>
+              <NavLink to="/sepcial/pathology">
+              <div className='col-lg-12 col-12 revenue_box text-center'>
+                <img src={lab5} alt="" />
+                <h5 className='mt-2 mb-5'>Pathology</h5>
+              </div>
+              </NavLink>
+             
+            
+            
+              
             </div>
 
           </div>
@@ -62,9 +86,10 @@ const Laboratory = () => {
           <h3 className='text-white'>LAB MEDICAL BILLING SERVICES FOR MAXIMUM REIMBURSEMENT</h3>
           <p className='text-white'>Trivium MBS’s expert billing for medical laboratory services includes scrubbing and submitting claims within a few days, then tracking all claims until they are paid, resulting in greatly increased revenue.</p>
           <div className='d-flex justify-content-center text-center gap-3'>
-            <button className='btn btn_demo'>Click to Call
-            </button>
-            <button className='btn btn_demo'>Schedule Demo</button>
+          <NavLink to="/contact" className="ms-0">
+          <button className='btn btn_demo'>Schedule Demo</button>
+          </NavLink>
+           
           </div>
         </div>
         <div className='container pt-5'>
@@ -133,25 +158,25 @@ const Laboratory = () => {
             <div className='col-lg-12 d-lg-flex d-block gap-3'>
 
               <div className='col-lg-3 col-12 '>
-                <img src={recoveryicon} alt="" className='text-center justify-content-center ms-lg-5 ms-0' />
+                {/* <img src={recoveryicon} alt="" className='text-center justify-content-center ms-lg-5 ms-0' /> */}
                 <h5 className='text-center pt-3'>
                   Affordable Rate</h5>
                 <p className='text-center pt-1'>We will provide you with physician practice management services and modern medical software at a very affordable rate.</p>
               </div>
               <div className='col-lg-3 col-12 '>
-                <img src={recoveryicon} alt="" className='text-center justify-content-center ms-lg-5 ms-0' />
+                {/* <img src={recoveryicon} alt="" className='text-center justify-content-center ms-lg-5 ms-0' /> */}
                 <h5 className='text-center pt-3'>
                   Runs Smoothly</h5>
                 <p className='text-center pt-1'>We assign a Trivium MBS Regional Manager to your office to ensure that everything runs smoothly.</p>
               </div>
               <div className='col-lg-3 col-12 '>
-                <img src={recoveryicon} alt="" className='text-center justify-content-center ms-lg-5 ms-0' />
+                {/* <img src={recoveryicon} alt="" className='text-center justify-content-center ms-lg-5 ms-0' /> */}
                 <h5 className='text-center pt-3'>
                   HR Services</h5>
                 <p className='text-center pt-1'>The Trivium MBS process can also work with payroll, coordinate benefits and provide your office with human resource services.</p>
               </div>
               <div className='col-lg-3 col-12 '>
-                <img src={recoveryicon} alt="" className='text-center justify-content-center ms-lg-5 ms-0' />
+                {/* <img src={recoveryicon} alt="" className='text-center justify-content-center ms-lg-5 ms-0' /> */}
                 <h5 className='text-center pt-3'>
                   Accounting Services</h5>
                 <p className='text-center pt-1'>We will process and collect your accounts receivable, and offer full accounting services.</p>

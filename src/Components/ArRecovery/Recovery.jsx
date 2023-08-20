@@ -7,6 +7,7 @@ import recovery4 from '../../assets/recovery4.png'
 import recovery3 from '../../assets/recovery3.webp'
 import recovery5 from '../../assets/recovery5.png'
 import recoveryicon from '../../assets/recoveryicon.webp'
+import { NavLink } from 'react-router-dom'
 const Recovery = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -62,9 +63,10 @@ const Recovery = () => {
         <h1 className='text-white'>SYSTEMATIC REVENUE GROWTH WITH SUCCESSFUL CLAIMS MANAGEMENT</h1>
         <p className='text-white'>The cutting-edge technology at Trivium MBS follows each claim all the way through, ensuring that our clients receive the money they are due.</p>
         <div className='d-flex justify-content-center text-center gap-3'>
-          <button className='btn btn_demo'>Click to Call
-          </button>
-          <button className='btn btn_demo'>Schedule Demo</button>
+         <NavLink to="/contact">
+
+         <button className='btn btn_demo'>Schedule Demo</button>
+         </NavLink>
         </div>
       </div>
       <div className='container pt-5'>
@@ -131,19 +133,19 @@ const Recovery = () => {
           <div className='col-lg-12 d-lg-flex d-block gap-3'>
 
             <div className='col-lg-4 col-12 revenue_box'>
-              <img src={recoveryicon} alt="" />
+              {/* <img src={recoveryicon} alt="" /> */}
               <h2>
                 We go after every claim.</h2>
               <p>While many billing businesses steer clear of minor claims recovery and those with a poor chance of getting paid, Trivium MBS does not. Due to the effectiveness of our system, we can obtain payment for each claim, hence lowering medical account receivables.</p>
             </div>
             <div className='col-lg-4 col-12 revenue_box'>
-              <img src={recoveryicon} alt="" />
+              {/* <img src={recoveryicon} alt="" /> */}
               <h2>
                 Setting Priorities for Maximum Recovery</h2>
               <p>We give claims top priority to prevent premature expiration and use the most effective method of medical recovery services to obtain the largest recovery amount.</p>
             </div>
             <div className='col-lg-4 col-12 revenue_box'>
-              <img src={recoveryicon} alt="" />
+              {/* <img src={recoveryicon} alt="" /> */}
               <h2>
                 Team dedicated to AR Recovery</h2>
               <p>When we agree to help with AR recovery, we appoint a specialized team of skilled medical billers to concentrate on looking into each claim in your AR records.</p>
@@ -155,19 +157,19 @@ const Recovery = () => {
           <div className='col-lg-12 d-lg-flex d-block gap-3'>
 
             <div className='col-lg-4 col-12 revenue_box'>
-              <img src={recoveryicon} alt="" />
+              {/* <img src={recoveryicon} alt="" /> */}
               <h2>
                 Pay Only If Reimbursement Is Successful</h2>
               <p>There is no chance that you will lose money on old AR, even though it is a lot of effort for us to comb through all of your unpaid claims. Only a small portion of the money we collect in fees is charged. There is no danger to you since if we are unsuccessful in getting payment for a claim, you don't have to pay us.</p>
             </div>
             <div className='col-lg-4 col-12 revenue_box'>
-              <img src={recoveryicon} alt="" />
+              {/* <img src={recoveryicon} alt="" /> */}
               <h2>
                 Recoveries Ratios Over 90%</h2>
               <p>Over 90% of claims dating back as long as a year have regularly been recovered by our highly skilled staff of AR recovery services. Any type of medical firm may readily benefit financially from generating that kind of revenue.</p>
             </div>
             <div className='col-lg-4 col-12 revenue_box'>
-              <img src={recoveryicon} alt="" />
+              {/* <img src={recoveryicon} alt="" /> */}
               <h2>
                 Rejections and Denials of Appeals</h2>
               <p>The majority of claim rejections and denials are the result of mistakes or omissions that our medical recovery services may simply fix. A high success rate is also achieved while identifying and fixing more complicated problems.

@@ -18,7 +18,7 @@ const ImagingCenter = () => {
                             <p>To accommodate the particular requirements of your imaging facility, Trivium MBS offers a wide range of services. You may now rely on a single radiology medical billing business for services like patient engagement, electronic health record/electronic medical record (EHR/EMR) technology, accounts receivable recovery, revenue cycle management (RCM), and RCM.</p>
                             <p className='mt-4'>The processing of daily claims, accurate imaging billing, and coding, as well as diligent follow-up on all denials, are essential. The qualified radiology billing specialists at Trivium are also familiar with the particular coding and billing specifications for mobile imaging, radiology, and free-standing imaging.
                             </p>
-                            <button className='btn btn_demo text-white'>Get More Information</button>
+                            {/* <button className='btn btn_demo text-white'>Get More Information</button> */}
                         </div>
                         <div className='col-lg-6 col-12'>
                             <img src={imaging} alt="" />

@@ -273,7 +273,6 @@ const Special = () => {
                   title: "Geriatrics",
                   route: "geriatrics",
             }
-
       ]
       return (
             <div className='container'>

@@ -36,7 +36,7 @@ const PhsicalBilling = () => {
             <div className='demo p-lg-5 p-2'>
                 <div className='container '>
                     <div className='row justify-content-between'>
-                        <div className='col-lg-6 col-12'>
+                        <div className='col-lg-12 col-12'>
                             <h2 className='clr'>Trivium MBS is hired to handle medical billing for doctors.</h2>
                             <div className='demo_box d-flex'>
                                 {/* <img src={demo} alt="" className='choose_icons'/> */}
@@ -70,7 +70,7 @@ const PhsicalBilling = () => {
                         </div>
 
 
-                        <div className='col-lg-6 col-12 '>
+                        {/* <div className='col-lg-6 col-12 '>
                             <h2 className='clr'>Schedule a Demo</h2>
                             <p className='mb-0'>A member of our team will get back to you within <strong>24/48 hours</strong> .</p>
                             <p>For immediate service, give us a call at <strong>800-640-6409</strong> .
@@ -110,7 +110,7 @@ const PhsicalBilling = () => {
                                 </div>
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

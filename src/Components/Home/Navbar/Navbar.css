@@ -1,6 +1,7 @@
+
 .logo{
-  height: 63px;
-  width: 163px;
+  height: 110px;
+  width: 227px;
 }
 .dropdown-menu.show{
   width: 230px !important;
@@ -54,7 +55,12 @@ font-weight: bold;
 
   
   
-  
+  @media screen and (max-width:600px) {
+    .logo{
+      height: 63px;
+      width: 163px;
+    }
+  }
   
   
   

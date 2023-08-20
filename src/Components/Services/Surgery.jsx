@@ -7,6 +7,7 @@ import recovery4 from '../../assets/recovery4.png'
 import recovery3 from '../../assets/recovery3.webp'
 import recovery5 from '../../assets/recovery5.png'
 import recoveryicon from '../../assets/recoveryicon.webp'
+import { NavLink } from 'react-router-dom'
 const Surgery = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -34,9 +35,10 @@ const Surgery = () => {
                 <h1 className='text-white'>AVOIDING THE PROBLEM OF INCREASING COSTS AND DECREASING REIMBURSEMENTS WITH EFFECTIVE REVENUE CYCLE MANAGEMENT</h1>
                 <p className='text-white'>For ambulatory surgery facilities, Trivium MBS reduces billing confusion and raises income.</p>
                 <div className='d-flex justify-content-center text-center gap-3'>
-                    <button className='btn btn_demo'>Click to Call
-                    </button>
-                    <button className='btn btn_demo'>Schedule Demo</button>
+                   <NavLink to="/contact" className="ms-0">
+                   <button className='btn btn_demo'>Schedule Demo</button>
+                   </NavLink>
+                   
                 </div>
             </div>
 

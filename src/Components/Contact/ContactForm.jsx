@@ -30,14 +30,14 @@ const ContactForm = () => {
           <p>For immediate service, give us a call at 800-640-6409.</p>
           <form className='' onSubmit={handleSubmit(onSubmit)}>
             <div className='demo_box2 justify-content-between d-lg-flex d-block w-100 '>
-              <div className='w-50'>
+              <div className='w-lg-50 w-100'>
                 <label for="exampleInputEmail1" class="form-label">Name</label>
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                   {...register("name", { required: true })}
                 />
                 {errors.name && <span className='text-danger'>Name is required</span>}
               </div>
-              <div className='w-50 ms-5'>
+              <div className='w-lg-50 w-100 ms-lg-5 ms-0'>
                 <label for="exampleInputEmail1" class="form-label">
                   Business Name</label>
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -136,13 +136,13 @@ const ContactForm = () => {
           <div className='col-lg-3 revenue_box text-center'>
             <img src={email} alt="" className='img-fluid mb-3' />
             <p>For Sales</p>
-            <p>+1 800 640 6409</p>
+            <p>Sales@triviummbs.com</p>
 
           </div>
           <div className='col-lg-3 revenue_box text-center'>
             <img src={email} alt="" className='img-fluid mb-3' />
             <p>For Info</p>
-            <p>+1 800 640 6409</p>
+            <p>info@triviummbs.com</p>
 
           </div>
         </div>

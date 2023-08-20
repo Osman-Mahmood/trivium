@@ -90,6 +90,7 @@ import thoracic1 from "../src/assets/thoracic1.webp";
 import thoracic2 from "../src/assets/thoracic2.webp";
 import thoracic3 from "../src/assets/thoracic3.png";
 import thoracic4 from "../src/assets/thoracic4.webp";
+import order1 from "../src/assets/order1.webp"
 const data = [
   {
     id: 0,
@@ -844,8 +845,8 @@ const data = [
   {
     id: 29,
     route: "toxicology",
-    // bg_image: gene,
-    // side_txt: "Toxicology Lab Billing",
+    bg_image: gene,
+    side_txt: "Toxicology Lab Billing",
     heading: "Toxicology Lab Billing",
     heading_para:
       "Medical billing for toxicology labs can be especially challenging because the billing codes change so often. The high number of changes in the past five years or so has resulted in a significant loss of reimbursements.     Lab staff can’t keep up with all the changes, making it beneficial to outsource laboratory billing to a team that is dedicated only to the revenue cycle—not trying to run a lab too! Our system includes frequently updated software and biller training to keep current with billing codes and payor requirements, so claims are filed rapidly and reimbursement is not held up.",
@@ -1211,7 +1212,33 @@ const data = [
     bundled_para:
       "Geriatric patients also tend to have more chronic conditions than younger demographics. Chronic conditions require more care, and because they are ongoing, billing and coding must be carefully done to avoid rejections for what appear to be duplicate bills.",
     bundled_image: thoracic4,
-  },
+  }
+  // {
+  //   id: 42,
+  //   route: "census",
+  //   bg_image: thoracic,
+  //   side_txt: "Order and Demographic Management",
+  //   heading: "Management of Order and Demographics",
+  //   heading_para:
+  //     "The success of your lab depends on giving patients high-quality treatment, which necessitates properly managing and processing test requests. Another crucial component of company success is being compensated for your labor, which is why we're here.     Our crew is made up of a team that concentrates on the front-office parts of lab orders in addition to our team of qualified billers. They make sure the order is submitted accurately so the right work is done and that you won't be refused payment due to missing information.",
+  //   section_image: order1,
+  //   new_section_img: thoracic2,
+  //   new_section_heading: " Successful Order Management",
+  //   new_section_heading_para:
+  //     "Lab orders must be input into the system swiftly and accurately in order to provide quality patient care. The many tasks that internal staff members may be assigned might lead to overwork or distraction, which can slow down order input or result in data inaccuracies. Pay close attention to the details since even minor inaccuracies that don't affect the validity of the lab findings, such a mismatched date or misspelled name, may lead the claim to be rejected and prevent you from being paid for the service.    The Trivium staff will input your orders into the LIS swiftly and accurately, regardless of whether they are in manual, email, or EMR format (or more often, a combination of all three).",
+  //   why_heading:
+  //     "3 Top Reasons Why Geriatrics Practices Should Outsource Medical Billing",
+  //   why_para:
+  //     "Trivium MBS’s billers are certified and experienced in coding for geriatrics. Medical billing is complicated no matter what field you are in, but geriatrics has a some challenges that make outsourcing especially beneficial. These are a few of them.",
+  //   multiple_heading: "Variable insurer and payer plans    ",
+  //   multiple_para:
+  //     "There are many options within Medicare, which vary from state to state. Patients may have several different programs (with varying benefits) to choose from for Part B, then they choose whether to get prescription drug coverage. Or they may choose a “Part C” plan which is an HMO or PPO. Each of these options will have different rules about what is covered, making the system very confusing for patients as well as medical staff.",
+  //   mutliple_image: thoracic3,
+  //   bundled_heading: "Chronic care management",
+  //   bundled_para:
+  //     "Geriatric patients also tend to have more chronic conditions than younger demographics. Chronic conditions require more care, and because they are ongoing, billing and coding must be carefully done to avoid rejections for what appear to be duplicate bills.",
+  //   bundled_image: thoracic4,
+  // }
 ];
 
 export default data;
