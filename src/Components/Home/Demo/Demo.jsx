@@ -49,7 +49,7 @@ const Demo = () => {
 
 </p>
                 <div className='bg_demo'>
-                <div className='demo_box2 justify-content-around d-lg-flex d-block'>
+                <div className='demo_box2 justify-content-between d-lg-flex d-block'>
                     <div className=''>
                     <label for="exampleInputEmail1" class="form-label text-dark">Name</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -60,7 +60,7 @@ Business Name</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                 </div>
-                <div className='demo_box2 mt-3 justify-content-around d-lg-flex d-block'>
+                <div className='demo_box2 mt-3 justify-content-between d-lg-flex d-block'>
                     <div className=''>
                     <label for="exampleInputEmail1" class="form-label text-dark">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -71,14 +71,14 @@ Phone</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                 </div>
-                <div class="mb-3 demo_box2 mt-3 justify-content-around px-lg-4 px-0">
+                <div class="mb-3 demo_box2 mt-3 justify-content-around px-0">
   <label for="exampleFormControlTextarea1" class="form-label text-dark">Your Message
 </label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
-<div className='text-center px-4'>
+<div className='text-center'>
 
-<button className='btn btn_demo w-100 p-2 text-white px-4'>Submit Now</button>
+<button className='btn btn_demo w-100 p-2 text-white'>Submit Now</button>
 </div>
                 </div>
             

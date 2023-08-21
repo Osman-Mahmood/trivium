@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import phone from '../../assets/phone.png'
 import fax from '../../assets/fax.png'
 import email from '../../assets/email.png'
@@ -6,7 +6,35 @@ import 'react-phone-number-input/style.css'
 import { useForm, Controller } from "react-hook-form";
 import PhoneInput from 'react-phone-number-input';
 import axios from 'axios'
+import * as turf from '@turf/turf';
+import countries from '../../countries.json';
 const ContactForm = () => {
+
+  const [country, setCountry] = useState(null);
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+        const userPoint = turf.point([longitude, latitude]);
+        for (let i = 0; i<countries.features.length; i++) {
+          if (turf.booleanPointInPolygon(userPoint, countries.features[i])) {
+            setCountry(countries.features[i].properties.ISO_A2);
+            return;
+          }
+        }
+
+        setError("Country not found.");
+
+      }, (err) => {
+        setError(`Geolocation error: ${err.message}`);
+      });
+    } else {
+      setError("Geolocation is not supported by this browser.");
+    }
+  }, []);
+
   const { register, handleSubmit, watch, control, formState: { errors } } = useForm();
   const [isLoading, setIsLoading] = useState(false)
   const [btnText, setBtnText] = useState("Submit Now")
@@ -70,7 +98,7 @@ const ContactForm = () => {
                   rules={{ required: 'Phone number is required' }}
                   render={({ field }) => <PhoneInput
                     class="form-control "
-                    defaultCountry="US"
+                    defaultCountry={country ? country : "US"}
                     international
                     countryCallingCodeEditable={false}
                     {...field}

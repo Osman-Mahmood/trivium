@@ -1,11 +1,11 @@
 import React from 'react'
 import './different.css'
-import abouticon from '../../../assets/abouticon.png'
-import abouticon2 from '../../../assets/abouticon2.png'
-import abouticon3 from '../../../assets/abouticon3.png'
-import abouticon4 from '../../../assets/abouticon4.png'
-import abouticon5 from '../../../assets/abouticon5.png'
-import abouticon6 from '../../../assets/abouticon6.png'
+import abouticon from '../../../assets/download-(1).png'
+import abouticon2 from '../../../assets/download-(2).png'
+import abouticon3 from '../../../assets/download-(3).png'
+import abouticon4 from '../../../assets/download-(4).png'
+import abouticon5 from '../../../assets/download-(5).png'
+import abouticon6 from '../../../assets/download-(6).png'
 const Different = () => {
   return (
     <div className='diff_bg'>

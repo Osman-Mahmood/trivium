@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='footer mt-3 p-5'>
          <div className='container pt-5 '>
             <div className='row'>
-               <div className='col-lg-3 col-12'>
+               <div className='col-lg-4 col-12'>
                   <h5 className='text-white'>Our Services</h5>
                   <ul className='p-0 footer_ul'>
                      <NavLink to="medical">
@@ -29,7 +29,7 @@ const Footer = () => {
                      </NavLink>
                   </ul>
                </div>
-               <div className='col-lg-3 col-12'>
+               <div className='col-lg-4 col-12'>
                   <h5 className='text-white'>Specialties</h5>
                   <ul className='p-0 footer_ul'>
                      <NavLink to="/sepcial/hepatology">
@@ -60,7 +60,7 @@ const Footer = () => {
 
                   </ul>
                </div>
-               <div className='col-lg-3 col-12'>
+               <div className='col-lg-4 col-12'>
                   <h5 className='text-white'>Quick Links</h5>
                   <ul className='p-0 footer_ul'>
                      <NavLink to="/">
@@ -74,7 +74,7 @@ const Footer = () => {
                      </NavLink>
                   </ul>
                </div>
-               <div className='col-lg-3 col-12'>
+               {/* <div className='col-lg-3 col-12'>
                   <h5 className='text-white'>Keep Connected
 
                   </h5>
@@ -83,7 +83,7 @@ const Footer = () => {
                      <input type="text" className='bg-transparent w-100 border border-light rounded text-white p-2 mt-3' placeholder='Your Email ' />
                      <button className='btn mt-3 btn_demo w-100 text-white'>Subscribe</button>
                   </ul>
-               </div>
+               </div> */}
                
             </div>
 
