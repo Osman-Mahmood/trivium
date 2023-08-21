@@ -26,8 +26,11 @@ const Navigation = () => {
     return (
         <Navbar collapseOnSelect expand="lg" className={`sticky p-2 ${scrolled ? 'sticky-header' : ''}`}>
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand >
+                    <NavLink to="/" className="ms-3">
+
                     <img src={logo} alt="" className='logo'/>
+                    </NavLink>
                     
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

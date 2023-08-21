@@ -95,9 +95,9 @@ They frequently believe you will find out about a secondary coverage if you chec
         </div>
       </div>
       <div className='container pt-5'>
-        <h2 className='clr text-center'>Enhance front-end Verification of Eligibility and Benefits
+        <h2 className='clr text-start'>Enhance front-end Verification of Eligibility and Benefits
         </h2>
-        <p className=' text-center'>
+        <p className=' text-start'>
         Verifying eligibility kicks off the Coverage Discovery process at the beginning of the medical revenue cycle. Before patients are ever seen by the physician, over one-third of claim denials and rejections are the result of upfront mistakes. Processes for registration and verification can be considerably improved for increased income. The following are just a few ways that Coverage Discovery helps the front-office procedure:<br />
         •	Simplifies interactions between staff and patients <br />
 •	Front-end collections are up <br />
@@ -109,12 +109,12 @@ They frequently believe you will find out about a secondary coverage if you chec
         <div className='row pt-4'>
           <div className='col-lg-12 d-lg-flex d-block gap-3'>
 
-            <div className='col-lg-12 col-12 revenue_box'>
+            <div className='col-lg-12 col-12 revenue_box bg-clr'>
               <img src={recoveryicon} alt="" />
               <h2>
 
               Reduce write-offs and bad debt</h2>
-              <p>There will always be patients who are unable to pay the entire cost of medical care, but by giving accurate information to patients, disclosing prices up front, and charging all accountable payers, you may recover more of your earned income. The inability to determine who should be charged for services is no longer a valid excuse.</p>
+              <p className='text-dark'>There will always be patients who are unable to pay the entire cost of medical care, but by giving accurate information to patients, disclosing prices up front, and charging all accountable payers, you may recover more of your earned income. The inability to determine who should be charged for services is no longer a valid excuse.</p>
             </div>
             {/* <div className='col-lg-6 col-12 revenue_box'>
               <img src={recoveryicon} alt="" />
