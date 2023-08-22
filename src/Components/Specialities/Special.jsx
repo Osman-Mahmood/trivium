@@ -116,6 +116,12 @@ const Special = () => {
                   title: "Traumatology",
                   route: "traumatology",
             },
+             {
+                  logo: painman,
+                  title: "Internal Medicine",
+                  route: "internalmedicine",
+            },
+          
             {
                   logo: rheumatology,
                   title: "Rheumatology",
@@ -175,6 +181,11 @@ const Special = () => {
                   route: "immunology",
             },
             {
+                  logo: infect,
+                  title: "Infectious Disease",
+                  route: "infectiousdisease",
+            },
+            {
                   logo: dem,
                   title: "For Disabled",
                   route: "disabled",
@@ -193,6 +204,11 @@ const Special = () => {
                   logo: physicalthrapy,
                   title: "Physical Therapy",
                   route: "physicaltherapy",
+            },
+            {
+                  logo: rehali,
+                  title: "Substance Abuse Rehab",
+                  route: "substance",
             },
             {
                   logo: obgyn,
@@ -245,6 +261,11 @@ const Special = () => {
                   route: "radiology",
             },
             {
+                  logo: handmed,
+                  title: "Geriatrics",
+                  route: "geriatrics",
+            },
+            {
                   logo: gastro,
                   title: "Gastroenterology",
                   route: "gastroenterology",
@@ -253,26 +274,9 @@ const Special = () => {
                   logo: hepatology,
                   title: "Pain Management",
                   route: "painmanagement",
-            }, {
-                  logo: painman,
-                  title: "Internal Medicine",
-                  route: "internalmedicine",
-            },
-            {
-                  logo: infect,
-                  title: "Infectious Disease",
-                  route: "infectiousdisease",
-            },
-            {
-                  logo: rehali,
-                  title: "Substance Abuse Rehab",
-                  route: "substance",
-            },
-            {
-                  logo: handmed,
-                  title: "Geriatrics",
-                  route: "geriatrics",
             }
+           
+        
       ]
       return (
             <div className='container'>
