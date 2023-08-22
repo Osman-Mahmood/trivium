@@ -9,7 +9,7 @@ import './Choose.css'
 const Choose = () => {
   return (
     <div>
-      <div className='container'>
+      <div className='container mb-5'>
         <div className='row pt-5 justify-content-between'>
             <div className='col-lg-6 bg_choose'>
                   
@@ -33,7 +33,7 @@ const Choose = () => {
             </div>
             <div className='col-lg-6'>
                 {/* <p className='mb-0'>Why Choose Us?</p> */}
-                <h2 className='clr'>Using technology and unique solutions, the most complete revenue cycle management solutions are available for medical offices.</h2>
+                <h2 className='clr'>Using technology and unique solutions, the most complete revenue cycle management solutions are available for medical offices</h2>
                 <p className=''>Trivium MBS can increase your profitability while giving you more time to devote to your patients. Your practice management will improve as a result of the high degree of efficacy you can accomplish with the help of our creative and dynamic medical billing solution. Because we put more time and effort into the initial claim process to minimize expensive time delays and denials on the back end, you will notice a substantial shift in the speed of your revenue cycle. To anticipate and minimize coding and billing problems while optimizing output, we also make use of cutting-edge technology and knowledgeable staff. Our investment in the preliminary claim procedure is beneficial.
 
 

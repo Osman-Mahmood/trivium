@@ -27,38 +27,38 @@ const Laboratory = () => {
         </div>
         <div className='container'>
           <div className='row pt-4'>
-            <div className='col-lg-12 d-lg-flex justify-content-center d-block gap-3'>
+            <div className='col-lg-12 d-lg-flex justify-content-center d-block gap-2'>
               <NavLink to="/laboratory/census">
-              <div className='col-lg-12 col-12 revenue_box text-center'>
+              <div className='col-lg-12 height  col-12 revenue_box p-3 text-center'>
               
               <img src={lab1} alt="" />
-              <h5 className='mt-2'>Order and Demographic Management</h5>
+              <h6 className=' '>Order and <br /> Demographic <br /> Management</h6>
             </div>
               </NavLink>
         <NavLink to="/sepcial/toxicology">
-        <div className='col-lg-12 col-12 revenue_box text-center'>
+        <div className='col-lg-12 height col-12 revenue_box text-center'>
                 <img src={lab2} alt="" />
 
-                <h5 className='mt-2 mb-5'>Toxicology</h5>
+                <h5 className=''>Toxicology</h5>
               </div>
         </NavLink>
               <NavLink to="/sepcial/molecularlab">
-              <div className='col-lg-12 col-12 revenue_box text-center'>
+              <div className='col-lg-12 height col-12 revenue_box text-center'>
                 <img src={lab3} alt="" />
 
-                <h5 className='mt-2 mb-5'>Molecular</h5>
+                <h5 className=''>Molecular</h5>
               </div>
               </NavLink>
               <NavLink to="/sepcial/clinical">
-              <div className='col-lg-12 col-12 revenue_box text-center'>
+              <div className='col-lg-12 height  col-12 revenue_box text-center'>
                 <img src={lab4} alt="" />
-                <h5 className='mt-2 mb-5'>Clinical</h5>
+                <h5 className=''>Clinical</h5>
               </div>
               </NavLink>
               <NavLink to="/sepcial/pathology">
-              <div className='col-lg-12 col-12 revenue_box text-center'>
+              <div className='col-lg-12 height col-12 revenue_box text-center'>
                 <img src={lab5} alt="" />
-                <h5 className='mt-2 mb-5'>Pathology</h5>
+                <h5 className=''>Pathology</h5>
               </div>
               </NavLink>
              
@@ -76,7 +76,7 @@ const Laboratory = () => {
                 </p>
               </div>
               <div className='col-lg-6 col-12'>
-                <img src={hospital2} alt="" />
+                <img src={hospital2} alt="" className='img-fluid'/>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ const Laboratory = () => {
 
         <div className='bg_recover text-center p-5'>
           <h3 className='text-white'>LAB MEDICAL BILLING SERVICES FOR MAXIMUM REIMBURSEMENT</h3>
-          <p className='text-white'>Trivium MBS’s expert billing for medical laboratory services includes scrubbing and submitting claims within a few days, then tracking all claims until they are paid, resulting in greatly increased revenue.</p>
+          <p className='text-white text-center'>Trivium MBS’s expert billing for medical laboratory services includes scrubbing and submitting claims within a few days, then tracking all claims until they are paid, resulting in greatly increased revenue.</p>
           <div className='d-flex justify-content-center text-center gap-3'>
           <NavLink to="/contact" className="ms-0">
           <button className='btn btn_demo'>Schedule Demo</button>
@@ -94,7 +94,7 @@ const Laboratory = () => {
         </div>
         <div className='container pt-5'>
 
-          <div className='row'>
+          <div className='row mb-4'>
             <div className='col-lg-6 col-12'>
               <h3>EHR/EMR Integration</h3>
               <p> In order to avoid claim denials due to coding errors, software must be updated frequently—however, the cost of maintaining this kind of an information system can be prohibitive for labs. One of the greatest benefits of working with an independent laboratory billing services & solutions company is that you no longer have to worry about keeping up with coding changes and payer requirements.
@@ -102,7 +102,7 @@ const Laboratory = () => {
                 Our software can be integrated with your existing practice management, EHR and EMR programs, or it can be used alone to encompass all aspects of patient data and revenue management.</p>
             </div>
             <div className='col-lg-6 col-12 text-center'>
-              <img src={recovery2} alt="" className='' />
+              <img src={recovery2} alt="" className='mb-4' />
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ const Laboratory = () => {
               </p>
             </div>
             <div className='col-lg-6 col-12 text-center'>
-              <img src={recovery4} alt="" className='' />
+              <img src={recovery4} alt="" className='mb-4' />
             </div>
 
           </div>
@@ -154,7 +154,7 @@ const Laboratory = () => {
           <h2 className='clr text-center'>We offer complete and customized billing and AR management services to meet your needs.
           </h2>
           {/* <p className=' text-center'>A tremendous amount of revenue is lost every year due to unpaid claims not being managed properly. We have a dedicated AR recovery team that is extremely successful at getting reimbursements for what others consider “uncollectible.” It is well known in the collections industry that the longer a bill goes unpaid, the less likely it is to be paid—but rather than giving up on old AR recovery & bills. Our account receivables services team takes that as our cue to take immediate action towards identifying and investigating every unpaid claim. Few medical AR billing services are willing to take on aging AR, or if they do, they want a high fee. Our system streamlines the process, allowing us to be efficient enough to work profitably on old AR Recoveries and low-value claims. These are some of the features of our AR recovery system.</p> */}
-          <div className='row pt-4'>
+          <div className='row pt-4 mb-3'>
             <div className='col-lg-12 d-lg-flex d-block gap-3'>
 
               <div className='col-lg-3 col-12 '>
@@ -187,9 +187,9 @@ const Laboratory = () => {
 
         </div>
         <div className='bg_reco p-5'>
-          <div className='text-start text-white'>
-            <h5>The Lab Business Isn’t Getting Any Easier</h5>
-            <p>Leverage Trivium MBS’s lab expertise to improve efficiency and increase revenue.</p>
+          <div className=' text-white'>
+            <h5 className='text-white text-center'>The Lab Business Isn’t Getting Any Easier</h5>
+            <p className='text-center'>Leverage Trivium MBS’s lab expertise to improve efficiency and increase revenue.</p>
           </div>
 
         </div>

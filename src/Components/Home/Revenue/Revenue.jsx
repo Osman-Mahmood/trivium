@@ -14,8 +14,8 @@ const Revenue = () => {
   return (
     <div className='container'>
         <div className='row mt-4 justify-content-between'>
-      <p className='mb-0'>Trivium MBS Revenue Cycle Management and Billing Services
-</p>  
+      <h2 className='mb-3 mt-3'>Trivium MBS Revenue Cycle Management and Billing Services
+</h2>  
                 <h5 className='clr'></h5>
                 <div className='col-lg-12 d-lg-flex d-block  gap-3 mt-3'>
                 <div className='col-lg-3 text-center mb-2 col-12 revenue_box'>
@@ -23,7 +23,7 @@ const Revenue = () => {
  <NavLink to="hospital" className="ms-0">
  <GiHospital className="icon_height mb-2"/>
  <h5>Hospital Billing <br /> Services</h5>
-<p className='text-primary'>More Info</p>
+<p className='text-primary text-center'>More Info</p>
  </NavLink>
  
                 </div>
@@ -32,7 +32,7 @@ const Revenue = () => {
                 <NavLink to="workforce" className="ms-0">
                 <FaHospitalUser className="icon_height mb-2"/>
  <h5>Staffing and Workforce</h5>
-<p className='text-primary'>More Info</p>
+<p className='text-primary  text-center'>More Info</p>
                   </NavLink>
  
                 </div>
@@ -41,7 +41,7 @@ const Revenue = () => {
                 <ImLab className="icon_height mb-2"/>
  <h5>Laboratory Billing <br />
 Services</h5>
-<p className='text-primary'>More Info</p>
+<p className='text-primary  text-center'>More Info</p>
                   </NavLink>
  
                 </div>
@@ -50,7 +50,7 @@ Services</h5>
                 <LiaHospitalSolid className="icon_height mb-2"/>
  <h5>Imaging Center <br />
 Billing</h5>
-<p className='text-primary'>More Info</p>
+<p className='text-primary  text-center'>More Info</p>
                   </NavLink>
  
                 </div>
@@ -62,7 +62,7 @@ Billing</h5>
                 <NavLink to="covery" className="ms-0">
                 <BsUmbrella className="icon_height mb-2"/>
  <h5>Coverage Discovery</h5>
-<p className='text-primary'>More Info</p>
+<p className='text-primary  text-center'>More Info</p>
                   </NavLink>
 
                 </div>
@@ -72,7 +72,7 @@ Billing</h5>
                 <FaSackDollar className="icon_height mb-2"/>
  <h5>AR Recovery <br />
 Services</h5>
-<p className='text-primary'>More Info</p>
+<p className='text-primary  text-center'>More Info</p>
                   </NavLink>
 
                 </div>
@@ -80,7 +80,7 @@ Services</h5>
                 <NavLink to="surgery" className="ms-0">
                 <TbAmbulance className="icon_height mb-2"/>
  <h5>Ambulatory Surgery <br /> Billing</h5>
-<p className='text-primary'>More Info</p>
+<p className='text-primary  text-center'>More Info</p>
                   </NavLink>
 
                 </div>
@@ -89,7 +89,7 @@ Services</h5>
                 <IoBagAddSharp className="icon_height mb-2"/>
  <h5>Medical Billing
 Services</h5>
-<p className='text-primary'>More Info</p>
+<p className='text-primary  text-center'>More Info</p>
                   </NavLink>
 
                 </div>

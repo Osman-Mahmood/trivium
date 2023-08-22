@@ -12,8 +12,12 @@
     margin-bottom: 20px !important;
     box-shadow: 0px 2px 18px 0px rgba(0,0,0,.06) !important;
 }
+.font{
+    font-size: 14px;
+}
 .demo{
-    background-color: rgba(232,237,242,.59) !important;
+    /* background-color: rgba(232,237,242,.59) !important; */
+    background-color: rgb(213 215 217 / 59%) !important;
 }
 .bg_demo{
     background: transparent;

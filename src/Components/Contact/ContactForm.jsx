@@ -124,7 +124,7 @@ const ContactForm = () => {
 
         </div>
         <div className='col-lg-6 col-12'>
-          <h2 className='clr'>Address</h2>
+          <h2 className='clr'>Business Address</h2>
           <h2>312 W 2nd St a779, Casper, WY 82601, USA</h2>
           <div>
             <iframe
@@ -151,26 +151,26 @@ const ContactForm = () => {
         <div className='col-lg-12 d-lg-flex d-block gap-3'>
           <div className='col-lg-3 revenue_box text-center'>
             <img src={phone} alt="" className='img-fluid mb-3' />
-            <p>Phone</p>
-            <p>+1 800 640 6409</p>
+            <p className='text-center'>PHONE</p>
+            <p className='text-center'>+1 800 640 6409</p>
 
           </div>
           <div className='col-lg-3 revenue_box text-center'>
             <img src={fax} alt="" className='img-fluid mb-3' />
-            <p>Fax</p>
-            <p>+1 800 640 6409</p>
+            <p className='text-center'>FAX</p>
+            <p className='text-center'>+1 800 640 6409</p>
 
           </div>
           <div className='col-lg-3 revenue_box text-center'>
             <img src={email} alt="" className='img-fluid mb-3' />
-            <p>For Sales</p>
-            <p>Sales@triviummbs.com</p>
+            <p className='text-center'>FOR SALES</p>
+            <p className='text-center'>sales@triviummbs.com</p>
 
           </div>
           <div className='col-lg-3 revenue_box text-center'>
             <img src={email} alt="" className='img-fluid mb-3' />
-            <p>For Info</p>
-            <p>info@triviummbs.com</p>
+            <p className='text-center'>FOR INFO</p>
+            <p className='text-center'>info@triviummbs.com</p>
 
           </div>
         </div>

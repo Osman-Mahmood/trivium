@@ -27,7 +27,7 @@ const Hepatology = () => {
         backgroundPosition: 'center',
         height: '300px',
       }}>
-        <h1 className='text-center pt-5 text-white'>
+        <h1 className='text-center pt-5'>
           {side_txt}</h1>
         <div className='container pt-5'>
           <div className='row align-items-center'>
@@ -91,7 +91,7 @@ Unlike most medical billing companies, who only offer AR recovery solutions as p
             <p>{heading_para}</p>
           </div>
           <div className='col-lg-6 col-12 text-center'>
-            <img src={section_image} alt="" className='' style={{ height: '300px' }} />
+            <img src={section_image} alt="" className='mb-5' style={{ height: '300px' }} />
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ Unlike most medical billing companies, who only offer AR recovery solutions as p
         <div className='container pt-5'>
           <div className='row'>
             <div className='col-lg-6 col-12 text-center'>
-              <img src={new_section_img} alt="" className='' style={{ height: '300px' }} />
+              <img src={new_section_img} alt="" className='mb-5' style={{ height: '300px' }} />
             </div>
             <div className='col-lg-6 col-12'>
               <h3>{new_section_heading}</h3>
@@ -127,7 +127,7 @@ Unlike most medical billing companies, who only offer AR recovery solutions as p
             </p>
           </div>
           <div className='col-lg-6 col-12 text-center'>
-            <img src={mutliple_image} alt="" className='' style={{ height: '300px' }} />
+            <img src={mutliple_image} alt="" className='mb-5' style={{ height: '300px' }} />
           </div>
 
         </div>
@@ -136,7 +136,7 @@ Unlike most medical billing companies, who only offer AR recovery solutions as p
         <div className='container pt-5'>
           <div className='row'>
             <div className='col-lg-6 col-12 text-center'>
-              <img src={bundled_image} alt="" className='' style={{ height: '300px' }} />
+              <img src={bundled_image} alt="" className='mb-5' style={{ height: '300px' }} />
             </div>
             <div className='col-lg-6 col-12'>
               <h3>{bundled_heading}</h3>

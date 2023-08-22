@@ -7,6 +7,8 @@ import recovery4 from '../../assets/recovery4.png'
 import recovery3 from '../../assets/recovery3.webp'
 import recovery5 from '../../assets/recovery5.png'
 import recoveryicon from '../../assets/recoveryicon.webp'
+import workforce from '../../assets/workforce.png'
+import workforce1 from '../../assets/workforce1.webp'
 const Workforce = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,8 +24,8 @@ const Workforce = () => {
               </p>
               {/* <button className='btn btn_demo'>Free AR Analysis</button> */}
             </div>
-            <div className='col-lg-6 col-12'>
-              <img src={hospital2} alt="" />
+            <div className='col-lg-6 text-center col-12'>
+              <img src={workforce1} alt="" />
             </div>
           </div>
         </div>
@@ -59,11 +61,11 @@ const Workforce = () => {
 
 
 
-      <div className='diff_bg'>
+      <div className=''>
         <div className='container pt-5'>
           <div className='row'>
             <div className='col-lg-6 col-12 text-center'>
-              <img src={recovery5} alt="" className='' />
+              <img src={workforce} alt="" className='' />
             </div>
             <div className='col-lg-6 col-12'>
               <h3>Find Out How Partnership with Trivium MBS Can Transform Your Revenue Cycle</h3>

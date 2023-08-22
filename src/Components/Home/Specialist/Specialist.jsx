@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 const Specialist = () => {
   return (
     <div className='container'>
-        <h5 className='clr pt-5'>Our Specialties</h5>
+        <h3 className='clr pt-5 mb-3'>Our Specialties</h3>
      
 
         <div className='row justify-content-between gap-1'>
@@ -62,7 +62,7 @@ Oncology</p>
                 </NavLink>
   
 </div>
-<div className='col-lg-3 mb-2 p-2 revenue_box text-center'>
+<div className='col-lg-3 p-2 revenue_box text-center'>
     <NavLink to="/sepcial/dermatology" className="ms-0">
     <GiHiveMind className="icon_height mb-3" />
     <p className='text-center mb-0'>
@@ -70,7 +70,7 @@ Oncology</p>
     </NavLink>
    
 </div>
-<div className='col-lg-3 mb-2 p-2 revenue_box text-center'>
+<div className='col-lg-3  p-2 revenue_box text-center'>
     <NavLink to="/sepcial/prostheses" className="ms-0">
     <GiHeartOrgan className="icon_height mb-3"/>
     <p className='text-center mb-0'>
@@ -79,7 +79,7 @@ Oncology</p>
     </NavLink>
    
 </div> 
-<div className='col-lg-3  mb-2 p-2 revenue_box text-center'>
+<div className='col-lg-3 p-2 revenue_box text-center'>
         <NavLink to="/sepcial/traumatology" className="ms-0">
         <GiHeartOrgan className="icon_height mb-3"/>
     <p className='text-center mb-0'>
@@ -88,7 +88,7 @@ Oncology</p>
 </div>
 
             </div>
-<div className='text-end pt-3'>
+<div className='text-end pt-3 mb-5'>
     <NavLink to="/sepcial">
     <button className='btn btn_demo text-white'>View All Specialties</button>
     </NavLink>

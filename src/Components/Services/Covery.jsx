@@ -7,13 +7,17 @@ import recovery4 from '../../assets/recovery4.png'
 import recovery3 from '../../assets/recovery3.webp'
 import recovery5 from '../../assets/recovery5.png'
 import recoveryicon from '../../assets/recoveryicon.webp'
+import covery from '../../assets/covery.webp'
+import covery1 from '../../assets/covery1.webp'
+import covery2 from '../../assets/covery2.png'
+import covery3 from '../../assets/covery3.png'
 const Covery = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
     <div >
-      <div className='diff_bg'>
+      <div className='bgabou'>
         <div className='container pt-5'>
           <div className='row align-items-center'>
             <div className='col-lg-6 col-12 '>
@@ -25,7 +29,7 @@ Simply said, patients' lack of insurance or inadequate insurance is the main cau
               {/* <button className='btn btn_demo'>Free AR Analysis</button> */}
             </div>
             <div className='col-lg-6 col-12'>
-              <img src={hospital2} alt="" />
+              <img src={covery} alt="" className='img-fluid mb-5'/>
             </div>
           </div>
         </div>
@@ -34,13 +38,13 @@ Simply said, patients' lack of insurance or inadequate insurance is the main cau
 
       <div className='container pt-5'>
 
-        <div className='row'>
+        <div className='row align-items-center'>
           <div className='col-lg-6 col-12'>
             <h3>Services for Coverage Discovery Increased Income</h3>
             <p> Hundreds of billions of dollars have been lost in income as a result of uncompensated care. The Coverage Discovery team at Trivium MBS searches for insurance that patients might not even be aware they have and secures all available reimbursements for our customers.</p>
           </div>
           <div className='col-lg-6 col-12 text-center'>
-            <img src={recovery2} alt="" className='' />
+            <img src={covery1} alt="" className='mb-4 img-fluid' style={{height:"300px"}}/>
           </div>
         </div>
       </div>
@@ -48,7 +52,7 @@ Simply said, patients' lack of insurance or inadequate insurance is the main cau
         <div className='container pt-5'>
           <div className='row'>
             <div className='col-lg-6 col-12 text-center'>
-              <img src={recovery3} alt="" className='' />
+              <img src={covery2} alt="" className='img-fluid mb-5' />
             </div>
             <div className='col-lg-6 col-12'>
               <h3>Why Did The Revenue Get Lost?</h3>
@@ -71,7 +75,7 @@ They frequently believe you will find out about a secondary coverage if you chec
             </p>
           </div>
           <div className='col-lg-6 col-12 text-center'>
-            <img src={recovery4} alt="" className='' />
+            <img src={covery3} alt="" className='mb-5 img-fluid' />
           </div>
 
         </div>
@@ -80,7 +84,7 @@ They frequently believe you will find out about a secondary coverage if you chec
         <div className='container pt-5'>
           <div className='row'>
             <div className='col-lg-6 col-12 text-center'>
-              <img src={recovery5} alt="" className='' />
+              <img src={recovery5} alt="" className='mb-5' />
             </div>
             <div className='col-lg-6 col-12'>
               <h3>Advantages of Coverage Discovery</h3>
@@ -95,9 +99,9 @@ They frequently believe you will find out about a secondary coverage if you chec
         </div>
       </div>
       <div className='container pt-5'>
-        <h2 className='clr text-center'>Enhance front-end Verification of Eligibility and Benefits
+        <h2 className='clr '>Enhance front-end Verification of Eligibility and Benefits
         </h2>
-        <p className=' text-center'>
+        <p className=''>
         Verifying eligibility kicks off the Coverage Discovery process at the beginning of the medical revenue cycle. Before patients are ever seen by the physician, over one-third of claim denials and rejections are the result of upfront mistakes. Processes for registration and verification can be considerably improved for increased income. The following are just a few ways that Coverage Discovery helps the front-office procedure:<br />
         •	Simplifies interactions between staff and patients <br />
 •	Front-end collections are up <br />
@@ -109,9 +113,9 @@ They frequently believe you will find out about a secondary coverage if you chec
         <div className='row pt-4'>
           <div className='col-lg-12 d-lg-flex d-block gap-3'>
 
-            <div className='col-lg-12 col-12 revenue_box'>
+            <div className='col-lg-12 col-12 bg-transparent revenue_box'>
               <img src={recoveryicon} alt="" />
-              <h2>
+              <h2 >
 
               Reduce write-offs and bad debt</h2>
               <p>There will always be patients who are unable to pay the entire cost of medical care, but by giving accurate information to patients, disclosing prices up front, and charging all accountable payers, you may recover more of your earned income. The inability to determine who should be charged for services is no longer a valid excuse.</p>

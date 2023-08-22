@@ -5,7 +5,7 @@ const Contact = () => {
     window.scrollTo(0, 0);
   });
   return (
-    <div className='diff_bg p-5'>
+    <div className='diff_bg p-0 pt-5'>
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-lg-6'>
@@ -15,8 +15,8 @@ const Contact = () => {
             </p>
             <p>If you’d like to talk to someone now, give us a call at 800-640-6409.</p>
           </div>
-          <div className='col-lg-6'>
-            <img src={contact} className='img-fluid' alt="" />
+          <div className='col-lg-6 '>
+            <img src={contact} className='img-fluid ' alt="" />
           </div>
         </div>
       </div>

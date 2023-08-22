@@ -96,7 +96,7 @@ const HospitalBilling = () => {
                         </div>
                         <div className='col-lg-6 col-12'>
                             <h2 className='clr'>
-                                We handle claim denials and do away with common mistakes.</h2>
+                                We handle claim denials and do away with common mistakes</h2>
                             <p>As a medical billing business, we are aware that even the smallest mistakes may result in claim denials, and every claim that needs to be reprocessed costs you money. If you currently handle all of your medical billing internally, each time a claim is submitted, overhead costs rise and you lose money. It is frequently the responsibility of doctors, nurses, and other staff members to identify and correct expensive hospital billing problems. The time spent on administrative chores detracts from the time spent caring for patients and adds extra stress to medical staff.</p>
                             {/* <button className='btn btn_demo'>Schedule Demo</button> */}
                         </div>

@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom'
 const Footer = () => {
    return (
       <div className='footer mt-3 p-5'>
-         <div className='container pt-5 '>
-            <div className='row'>
-               <div className='col-lg-4 col-12'>
+         <div className='container '>
+            <div className='row justify-content-start px-lg-5 px-0 ms-lg-5 ms-0'>
+               <div className='col-lg-3 col-12'>
                   <h5 className='text-white'>Our Services</h5>
                   <ul className='p-0 footer_ul'>
                      <NavLink to="medical">
@@ -29,7 +29,7 @@ const Footer = () => {
                      </NavLink>
                   </ul>
                </div>
-               <div className='col-lg-4 col-12'>
+               <div className='col-lg-3 col-12'>
                   <h5 className='text-white'>Specialties</h5>
                   <ul className='p-0 footer_ul'>
                      <NavLink to="/sepcial/hepatology">
@@ -60,7 +60,39 @@ const Footer = () => {
 
                   </ul>
                </div>
-               <div className='col-lg-4 col-12'>
+               <div className='col-lg-3 col-12'>
+                  <h5 className='text-white'>Specialties</h5>
+                  <ul className='p-0 footer_ul'>
+                  <NavLink to="/sepcial/cardiovascular">
+                        <li>Cardiovascular
+                        </li>
+                     </NavLink>
+                     <NavLink to="/sepcial/clinical">
+                        <li>Clinical Lab
+                        </li>
+                     </NavLink>
+
+                     <NavLink to="/sepcial/pathology">
+                        <li>Pathology Lab</li>
+                     </NavLink>
+                     <NavLink to="/sepcial/toxicology">
+                        <li>Toxicology Lab </li>
+                     </NavLink>
+                     <NavLink to="/sepcial/molecularlab">
+                        <li>Molecular Lab</li>
+                     </NavLink>
+                     <NavLink to="/sepcial/internalmedicine">
+
+
+                        <li>
+                           Internal Medicine
+                        </li>
+                     </NavLink>
+
+
+                  </ul>
+               </div>
+               <div className='col-lg-3 col-12'>
                   <h5 className='text-white'>Quick Links</h5>
                   <ul className='p-0 footer_ul'>
                      <NavLink to="/">

@@ -9,6 +9,7 @@ import recovery4 from '../../assets/recovery4.png'
 import recovery3 from '../../assets/recovery3.webp'
 import recovery5 from '../../assets/recovery5.png'
 import recoveryicon from '../../assets/recoveryicon.webp'
+import imaging from '../../assets/imaging.webp'
 const PhsicalBilling = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -28,7 +29,7 @@ const PhsicalBilling = () => {
                             {/* <button className='btn btn_demo'>Free AR Analysis</button> */}
                         </div>
                         <div className='col-lg-6 col-12'>
-                            <img src={hospital2} alt="" />
+                            <img src={imaging} alt="" />
                         </div>
                     </div>
                 </div>
@@ -124,7 +125,7 @@ const PhsicalBilling = () => {
                 </div>
             </div> */}
             <div className='container pt-5'>
-                <h2 className='clr text-center'>We Offer The Essential Services to Boost Claims, Avoid Rejections, and Increase Revenue.</h2>
+                <h2 className='clr text-center mb-5'>We Offer The Essential Services to Boost Claims, Avoid Rejections, and Increase Revenue</h2>
                 {/* <p className='text-center'>Our strategy for managing aging AR accounts has been developed through years of experience. Our old AR recovery service is a streamlined approach that is both fast and effective.</p> */}
                 <div className='row'>
                     <div className='col-lg-6 col-12'>
@@ -134,7 +135,7 @@ We work hard to protect your company's financial stability and reduce the hassle
 </p>
                     </div>
                     <div className='col-lg-6 col-12 text-center'>
-                        <img src={recovery2} alt="" className='' />
+                        <img src={recovery2} alt="" className='mb-5' />
                     </div>
                 </div>
             </div>
@@ -142,7 +143,7 @@ We work hard to protect your company's financial stability and reduce the hassle
                 <div className='container pt-5'>
                     <div className='row'>
                         <div className='col-lg-6 col-12 text-center'>
-                            <img src={recovery3} alt="" className='' />
+                            <img src={recovery3} alt="" className='mb-5' />
                         </div>
                         <div className='col-lg-6 col-12'>
                             <h3>Management of Denialism and Rejection</h3>
@@ -162,7 +163,7 @@ We work hard to protect your company's financial stability and reduce the hassle
                         </p>
                     </div>
                     <div className='col-lg-6 col-12 text-center'>
-                        <img src={recovery4} alt="" className='' />
+                        <img src={recovery4} alt="" className='mb-5' />
                     </div>
 
                 </div>
@@ -171,7 +172,7 @@ We work hard to protect your company's financial stability and reduce the hassle
                 <div className='container pt-5'>
                     <div className='row'>
                         <div className='col-lg-6 col-12 text-center'>
-                            <img src={recovery5} alt="" className='' />
+                            <img src={recovery5} alt="" className='mb-5' />
                         </div>
                         <div className='col-lg-6 col-12'>
                             <h3>Secure data management that complies with HIPAA</h3>
@@ -188,7 +189,7 @@ We work hard to protect your company's financial stability and reduce the hassle
                 <div className='row pt-4'>
                     <div className='col-lg-12  mb-3 d-lg-flex d-block gap-3'>
 
-                        <div className='col-lg-12  col-12 revenue_box'>
+                        <div className='col-lg-12  col-12 bg-transparent revenue_box'>
                             <img src={recoveryicon} alt="" />
                             <h2>
                             Charting & Coding Review in accordance with governing bodies</h2>

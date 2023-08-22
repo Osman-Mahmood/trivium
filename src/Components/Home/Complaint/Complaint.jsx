@@ -4,7 +4,7 @@ import './complain.css'
 import { NavLink } from 'react-router-dom'
 const Complaint = () => {
   return (
-    <div className='complain_bg'>
+    <div className='demo mt-3'>
   <div className='container'>
         <div className='row justify-content-between align-items-center'>
             <div className='col-lg-6'>

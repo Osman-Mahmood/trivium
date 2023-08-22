@@ -1,4 +1,4 @@
-import logo from "../src/assets/aboutbanner.png";
+import logo from "../src/assets/logo.webp";
 import hepa from "../src/assets/trivium_hepa.webp";
 import hepa1 from "../src/assets/hepa1.webp";
 import hepa2 from "../src/assets/hepa2.webp";
@@ -314,12 +314,12 @@ const data = [
       "Trivium MBS offers tailored billing solutions for clinical labs. Our certified medical billing specialists stay up to date on regulatory and medical lab billing standards and our professional clinical laboratories billing services ensure increased revenue stream and maximizes profitability. With accurate coding, timely submission of completed claims, and aggressive follow-up on denials, clinical lab billing specialists help you shape a long-term plan to succeed amidst all of the changes in store for laboratories.",
     // why_heading:"Trivium MBS’s Full Suite of Psychology Billing Solutions",
     // why_para:"Trivium MBS takes care of revenue cycle management from credentialing to annual reviews, protecting your income while you focus on patient care.",
-    // multiple_heading:"Complicated Rules for Coverage",
-    // multiple_para:"Some health care policies exclude mental health care altogether, and those that include it have a wide range of policies. The Affordable Care Act (ACA) requires Marketplace plans to include mental health and substance use disorder services but does not detail what must be covered. Though it is more widely covered than it has been in the past, the rules for therapy may even vary from state to state by the same insurer. As a psychology billing company, we stay updated with the complicated rules.",
-    // mutliple_image:logo,
+    multiple_heading:"Complicated Rules for Coverage",
+    multiple_para:"Some health care policies exclude mental health care altogether, and those that include it have a wide range of policies. The Affordable Care Act (ACA) requires Marketplace plans to include mental health and substance use disorder services but does not detail what must be covered. Though it is more widely covered than it has been in the past, the rules for therapy may even vary from state to state by the same insurer. As a psychology billing company, we stay updated with the complicated rules.",
+    mutliple_image:logo,
     // bundled_heading:"Referrals May Be Required:",
-    // bundled_para:"Sometimes a referral from a family physician is required in order for therapy to be covered. This means that when a patient is scheduled, you must remember to make sure they have already seen a doctor, but it also adds a networking challenge to the success of your practice. If you aren’t known in the local medical community, you will not get referrals because medical offices usually try to refer to a psychologist that they know and feel confident recommending.        ",
-    // bundled_image:logo,
+    bundled_para:"However, for the majority of clinical laboratories, the outlook doesn’t have to be so dismal. Making efficient and timely adjustments to both back-office and front-office procedures can make all the difference. Submitting complete and accurate claims has never been more important to the success of your lab. Not only is it imperative that CPT and ICD-10 codes be correct, but claims must also be coded to the highest level of specificity to prove medical necessity. And time is of the essence – the limited window for reporting clinical diagnoses and submitting claims means you may have to adjust the pace of your administrative and clinical lab billing processes. This can especially be challenging when the ordering provider sends a requisition with missing, incomplete, or incorrect information.  ",
+    bundled_image:logo,
   },
   {
     id: 9,
@@ -402,7 +402,7 @@ const data = [
     id: 12,
     route: "traumatology",
     bg_image: traum,
-    side_txt: "traumatology",
+    side_txt: "Traumatology",
     heading: "Trivium MBS Manages Traumatology Billing Services",
     heading_para:
       "It is no secret that medical billing and coding are complicated and demand far too much doctors’ time and attention. There is good news, though. They can be outsourced to a professional traumatology medical billing company like Trivium MBS, which focuses solely on revenue cycle management (RCM) including the details of coding and billing.",
@@ -545,8 +545,8 @@ const data = [
       "The future revenue cycle management of your lab depends on accurate documentation and proper reporting. It is critical to adjust front-office and back-office procedures to ensure maximum reimbursement from all payers. Many insurance companies have narrowed their provider networks, and pathology labs are increasingly deemed, out-of-network providers. Adding to the challenge is the fact that health insurers are placing greater limitations on benefits. It’s becoming more and more difficult to collect payments from insurers and patients alike. You may not be able to do anything about coverage, but you can avoid these types of denied claims and collection accounts by verifying eligibility before providing services.",
     mutliple_image: pathology3,
     // bundled_heading:"High-Loss Claims ",
-    // bundled_para:"In general medical practice, there may be hundreds of patients through the doors daily, resulting in an enormous number of low-dollar claims being filed daily, but in pulmonology billing, examinations and treatments are of a different, more in-depth, and time-consuming, nature. A physician may see 10 or 15 people on a normal day, meaning the loss of revenue for a single unpaid claim can be substantial.",
-    // bundled_image:logo,
+    bundled_para:"Trivium MBS provides comprehensive pathology billing services that identify and address potential compliance, regulatory, and reporting issues before they occur to keep your lab profitable and less operational costs. We do aggressive claims follow up and effectively collect on old A/R accounts to recover lost revenue, and we submit accurate, timely claims for consistent revenue streams and cash flow. Our certified medical billing professionals have specialized expertise in pathology medical billing services which results in a shortened reimbursement cycle and maximized profitability.",
+    bundled_image:logo,
   },
   {
     id: 18,
@@ -860,21 +860,21 @@ const data = [
     //   "We Deal With All General Surgery Medical Billing and Coding Issues",
     // why_para:
     //   "Medical billing and coding are very detailed tasks, known to be major headaches for many medical offices. Billing for general surgery is complicated for several reasons.",
-    // multiple_heading: "Confusion Over E/M Coding ",
-    // multiple_para:
-    //   "Sometimes visiting a physician and getting a diagnosis is billed separately from the resulting surgery, but other times it is considered a single encounter… Unless medical billers are experienced, they are unlikely to recognize which way to code for each situation.",
-    // mutliple_image: gene3,
-    // bundled_heading: " Global Surgery Packages",
-    // bundled_para:
-    //   "In general, global surgery packages simplify medical billing by eliminating the requirement for separate codes for each aspect of the surgery and its related care. However, keeping track of the various packages and their associated codes can be difficult for inexperienced billers. Because each global surgery package represents a large sum, it is especially important that reimbursement is not delayed by a denial that results from an error on the claim.",
-    // bundled_image: gene4,
+    multiple_heading: "Choose the Right Billing Partner ",
+    multiple_para:
+      "Successful billing for toxicology labs requires securing insurance contracts and staying up to date on the constant additions, deletions, and revisions to toxicology codes. It also demands frequent communication with multiple physicians and facilities to obtain all of the patient data and documentation needed to support the billing claim. And that has to be done quickly—the longer you wait after the date of service to submit a claim, the more difficult it is to get reimbursed. On top of that, you need aggressive, daily denial management.",
+    mutliple_image: gene3,
+    bundled_heading: "So You Can Focus on Quality Care",
+    bundled_para:
+      "Trivium’s clients are able to focus on patient care and best practices in testing because they can rely on our team to ensure the accuracy and timely filing of claims. Our billers and coders not only stay on top of coding changes and reporting requirements as they happen, but we are also alert for potential issues that could occur in the future. We take pride in our ability to correct and collect on denied claims because we understand that the revenue of our clients’ labs depends on the work we do.",
+    bundled_image: gene4,
   },
 
   {
     id: 30,
     route: "primarycare",
-    // bg_image: fghq,
-    // side_txt: "FQHC BILLING SERVICES",
+    bg_image: fghq,
+    side_txt: "Primary Care Services",
     heading: "Physician Billing Services",
     heading_para:
       "Physicians spend years developing the skills required to build a thriving practice. But even with that expertise, it is extremely challenging to keep abreast of the ever- advancing field of revenue cycle management. Trivium MBS handles all aspects of physician billing and management solutions, including aging accounts receivable recovery. We also provide a full suite of medical revenue cycle management services that are custom-tailored to fit your requirements.",
@@ -956,8 +956,8 @@ const data = [
   {
     id: 33,
     route: "ambulatorysurgery",
-    // bg_image: prost,
-    // side_txt: "Ambulatory Surgery Center (ASC) Billing Services",
+    bg_image: prost,
+    side_txt: "Ambulatory Surgery Center (ASC) Billing Services",
     heading: "Ambulatory Surgery Center (ASC) Billing Services",
     heading_para:
       "Ambulatory surgery centers (ASCs) have the same billing complexities that hospitals do—but with a much smaller medical billing staff to take care of the questions and issues that may arise. Outsourcing medical billing to Trivium MBS relieves the pressure created by trying to stay current on the complex coding guidelines while running a successful surgery center.",
@@ -995,14 +995,14 @@ const data = [
     // why_heading: "Challenges in Dermatology Medical Billing and Coding",
     // why_para:
     //   "Medical coding and billing is a challenge for any practice, but it can be even worse for dermatology. The following have been identified as some of the more frequently occurring issues.",
-    // multiple_heading: "Cosmetic vs. Medically Necessary Procedures",
-    // multiple_para:
-    //   "Because dermatologists treat so many conditions that may or may not be “medically necessary,” depending on the severity, additional conditions and other factors, the coding details make the difference in whether a claim is accepted or denied. Again, coders need specialized training to be aware of how to correctly identify each diagnosis and procedure and use the appropriate coding modifiers. Medical billing for dermatology is one of our specialties and our team is kept up to date on the latest coding changes. Contact us to find out how we can get you maximum reimbursements.",
-    // mutliple_image: dermatology3,
-    // bundled_heading: "Procedure Bundling ",
-    // bundled_para:
-    //   "Bundling charges for treatments that are performed together simplifies coding in many cases, but billers and coders must be familiar with what is included in bundles and be careful not to bill for anything that is not included, which would be a violation of over-coding regulations. Our medical billing company has the experience to get claims filed correctly and avoid over- and under-coding.",
-    // bundled_image: dermatology4,
+    multiple_heading: "Dedication to Revenue Cycle Management   Dedication to Revenue Cycle Management",
+    multiple_para:
+      "Over the last decade, Trivium MBS has grown its expertise in ambulatory surgery medical billing and coding, and expanded into all aspects of medical revenue cycle management (RCM). Our steady growth and successful track record are due in large part to having developed procedures that all of our highly trained staff follow to ensure that every client receives the same excellent ambulatory services. We submit accurate codes in agreement with CMS guidelines to help you achieve maximum revenue.",
+    mutliple_image: dermatology3,
+    bundled_heading: "Continual Electronic System Updates ",
+    bundled_para:
+      "Medical billing codes change annually, and various payers and insurers change their policies on an ongoing basis. Functioning effectively in today’s medical billing and coding environment requires use of the latest EHR/EMR software and technology. Our ASC billing company works closely with programmers and security developers to ensure that our software is always up to date and our system protects patient information at the highest security level available.",
+    bundled_image: dermatology4,
   },
 
   {
@@ -1034,8 +1034,8 @@ const data = [
   {
     id: 36,
     route: "radiology",
-    // bg_image: pathology,
-    // side_txt: "PATHOLOGY BILLING SERVICES",
+    bg_image: pathology,
+    side_txt: "Radiology Services",
     heading: "Imaging Center Billing Services",
     heading_para:
       "Trivium MBS provides a comprehensive range of services to meet the unique needs of your imaging center. Now you can count on one radiology medical billing company for radiology revenue cycle management services (RCM), accounts receivable recovery , electronic health record/electronic medical record (EHR/EMR) technologies, practice management, and patient engagement services.",
@@ -1051,9 +1051,9 @@ const data = [
     multiple_para:
       "Coding for radiology practices and diagnostic imaging centers is complicated because so many newer technologies and treatments are involved. Many see denied claims due to inaccurate modifiers used with CPT codes, but with Trivium MBS’s radiology billing services, you can be confident that you’ll receive compensation for the time and care you’ve provided to patients for both technical and professional components. Free-standing imaging centers, mobile imaging (such as x-ray and ultrasound), and free-standing radiology equipment create additional challenges in coding. These are the kind of details the top billing companies routinely manage to simplify your RCM process.      ",
     mutliple_image: pathology3,
-    // bundled_heading:"High-Loss Claims ",
-    // bundled_para:"In general medical practice, there may be hundreds of patients through the doors daily, resulting in an enormous number of low-dollar claims being filed daily, but in pulmonology billing, examinations and treatments are of a different, more in-depth, and time-consuming, nature. A physician may see 10 or 15 people on a normal day, meaning the loss of revenue for a single unpaid claim can be substantial.",
-    // bundled_image:logo,
+    bundled_heading:"Free Your Attention",
+    bundled_para:"It’s difficult to remain entirely focused on patient care when you’re worried about your bottom line. If you’re spending valuable resources trying to diagnose finances rather than patients, then perhaps it’s time to schedule a check-up for your current radiology billing methods.",
+    bundled_image:logo,
   },
 
   {

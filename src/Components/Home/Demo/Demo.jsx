@@ -42,14 +42,14 @@ const Demo = () => {
             </div>
 
 
-            <div className='col-lg-6 col-12 '>
-                <h2 className='clr'>Schedule a Demo</h2>
-                <p className='mb-0'>A member of our team will get back to you within <strong>24/48 hours</strong> .</p>
-                <p>For immediate service, give us a call at <strong>800-640-6409</strong> .
+            <div className='col-lg-6 col-12 px-lg-4 px-0'>
+                <h2 className='clr px-lg-4 ms-lg-1 ms-0 px-0'>Schedule a Demo</h2>
+                <p className='mb-2 px-lg-4 ms-lg-1 ms-0 px-0 '>A member of our team will get back to you within <strong>24/48 hours</strong> .</p>
+                <p className='mb-0 px-lg-4 ms-lg-1 ms-0 px-0 font'>For immediate service, give us a call at <strong>800-640-6409</strong> 
 
 </p>
-                <div className='bg_demo'>
-                <div className='demo_box2 justify-content-between d-lg-flex d-block'>
+                <div className='bg_demo mt-3'>
+                <div className='demo_box2 justify-content-center d-lg-flex d-block gap-5'>
                     <div className=''>
                     <label for="exampleInputEmail1" class="form-label text-dark">Name</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -60,7 +60,7 @@ Business Name</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                 </div>
-                <div className='demo_box2 mt-3 justify-content-between d-lg-flex d-block'>
+                <div className='demo_box2 justify-content-center d-lg-flex d-block gap-5 mt-3'>
                     <div className=''>
                     <label for="exampleInputEmail1" class="form-label text-dark">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />

@@ -7,4 +7,11 @@ li{
 .footer_ul li{
     color: white !important;
     cursor: pointer;
+    margin: 0 !important;
+}
+.footer_ul a{
+    margin: 0px;
+    /* padding: 3px; */
+    text-align: start !important;
+    font-size: 14px;
 }

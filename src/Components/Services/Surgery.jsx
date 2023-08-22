@@ -6,6 +6,7 @@ import recovery2 from '../../assets/recovery1.png'
 import recovery4 from '../../assets/recovery4.png'
 import recovery3 from '../../assets/recovery3.webp'
 import recovery5 from '../../assets/recovery5.png'
+import surgery from '../../assets/surgery.webp'
 import recoveryicon from '../../assets/recoveryicon.webp'
 import { NavLink } from 'react-router-dom'
 const Surgery = () => {
@@ -25,7 +26,7 @@ const Surgery = () => {
                             {/* <button className='btn btn_demo'>Free AR Analysis</button> */}
                         </div>
                         <div className='col-lg-6 col-12'>
-                            <img src={hospital2} alt="" />
+                            <img src={surgery} alt="" className='img-fluid mb-5'/>
                         </div>
                     </div>
                 </div>
@@ -33,7 +34,7 @@ const Surgery = () => {
 
             <div className='bg_recover text-center p-5'>
                 <h1 className='text-white'>AVOIDING THE PROBLEM OF INCREASING COSTS AND DECREASING REIMBURSEMENTS WITH EFFECTIVE REVENUE CYCLE MANAGEMENT</h1>
-                <p className='text-white'>For ambulatory surgery facilities, Trivium MBS reduces billing confusion and raises income.</p>
+                <p className='text-white text-center'>For ambulatory surgery facilities, Trivium MBS reduces billing confusion and raises income.</p>
                 <div className='d-flex justify-content-center text-center gap-3'>
                    <NavLink to="/contact" className="ms-0">
                    <button className='btn btn_demo'>Schedule Demo</button>
@@ -98,7 +99,7 @@ const Surgery = () => {
             </div>
             <div className='bg_reco p-5 mt-4'>
                 <div className='text-start text-white'>
-                    <h5>A Creative, Scalable Method</h5>
+                    <h5 className='text-white'>A Creative, Scalable Method</h5>
                     <p>Much more than just processing claims is done by Trivium MBS. Complete medical revenue cycle management (RCM), from pre-appointment scheduling to handling collections, is part of our creative approach to ASC billing services. Another essential component of our efficient system is ongoing training, which keeps our billers and coders current. We have been able to form a group of professionals that are knowledgeable about the details of coding for ambulatory surgical centers among many other disciplines in the medical industry by building a sizable, highly educated team of medical billing and coding staff.</p>
                 </div>
 

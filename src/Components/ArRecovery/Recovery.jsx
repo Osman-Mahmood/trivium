@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import hospital2 from '../../assets/hospital2.webp'
+import ar from '../../assets/ar.webp'
 import hospitalicon from '../../assets/hospitalicon.webp'
 import './recovery.css'
 import recovery2 from '../../assets/recovery1.png'
@@ -26,8 +26,8 @@ const Recovery = () => {
               </p>
               {/* <button className='btn btn_demo'>Free AR Analysis</button> */}
             </div>
-            <div className='col-lg-6 col-12'>
-              <img src={hospital2} alt="" />
+            <div className='col-lg-6 text-center col-12'>
+              <img src={ar} alt="" className='img-fluid mb-5'/>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ const Recovery = () => {
       </div> */}
       <div className='bg_recover text-center p-5'>
         <h1 className='text-white'>SYSTEMATIC REVENUE GROWTH WITH SUCCESSFUL CLAIMS MANAGEMENT</h1>
-        <p className='text-white'>The cutting-edge technology at Trivium MBS follows each claim all the way through, ensuring that our clients receive the money they are due.</p>
+        <p className='text-white text-center'>The cutting-edge technology at Trivium MBS follows each claim all the way through, <br /> ensuring that our clients receive the money they are due.</p>
         <div className='d-flex justify-content-center text-center gap-3'>
          <NavLink to="/contact">
 
@@ -71,14 +71,14 @@ const Recovery = () => {
       </div>
       <div className='container pt-5'>
         <h2 className='clr text-center'>The 4-Piece Trivium MBS Recovery Plan</h2>
-        <p className='text-center'>We have created a management plan for aging AR accounts throughout the years. Our previous AR recovery solution uses a simplified method that is quick and efficient.</p>
-        <div className='row'>
+        <p className='text-center '>We have created a management plan for aging AR accounts throughout the years. Our previous AR recovery solution uses a simplified method that is quick and efficient.</p>
+        <div className='row mt-5 mb-5'>
           <div className='col-lg-6 col-12'>
             <h3>Systematic Assessment</h3>
             <p> The initial step when our AR team provides account recovery solutions to a new customer is a careful examination of every outstanding claim. We look for every one that could be recoverable and start working on it, even if there may be some that have expired or are not collectible for some other reason. The "low hanging fruit" is not everything that we are searching for in this process. We examine each claim that could still be paid because we are aware of how quickly little sums can stack up for our customers while many medical billing agencies only seek for huge dollar claims in aging AR.</p>
           </div>
           <div className='col-lg-6 col-12 text-center'>
-            <img src={recovery2} alt="" className='' />
+            <img src={recovery2} alt="" className='mb-4' />
           </div>
         </div>
       </div>
@@ -99,14 +99,14 @@ const Recovery = () => {
       <div className='container pt-5'>
         <div className='row'>
 
-          <div className='col-lg-6 col-12'>
+          <div className='col-lg-6 col-12 mb-5'>
             <h3>Correction and Resubmission of Claims</h3>
             <p>No claim is ever turned down, refused, or paid insufficiently by our committed taskforce because of a lack of follow-up. We appeal each of those claims when the necessary modifications or clarifications have been provided in order for the insurance company or government payer to reevaluate the payment. We keep track of your claim rejections and denials in order to spot any recurrent issues and permanently fix them in your revenue cycle management system.
 
             </p>
           </div>
           <div className='col-lg-6 col-12 text-center'>
-            <img src={recovery4} alt="" className='' />
+            <img src={recovery4} alt="" className='mb-5' />
           </div>
 
         </div>
@@ -114,7 +114,7 @@ const Recovery = () => {
       <div className='diff_bg'>
         <div className='container pt-5'>
           <div className='row'>
-            <div className='col-lg-6 col-12 text-center'>
+            <div className='col-lg-6 mb-5 col-12 text-center'>
               <img src={recovery5} alt="" className='' />
             </div>
             <div className='col-lg-6 col-12'>
@@ -126,9 +126,9 @@ const Recovery = () => {
         </div>
       </div>
       <div className='container pt-5'>
-        <h2 className='clr text-center'>AR Recovery is one of our areas of expertise.
+        <h2 className='clr text-center'>AR Recovery is one of our areas of expertise
         </h2>
-        <p className=' text-center'>Every year, unpaid claims that are not adequately managed result in significant income losses. We have a committed team that works diligently to recover uncollectible accounts receivable, and they are quite effective at doing so. The collections business is well aware that the longer a bill remains unpaid, the less likely it is to be paid; but, instead of letting up on old AR recovery & invoices, pursue them. That serves as a signal to our team of account receivables services to begin looking for and looking into each overdue claim right away. Only a small number of medical AR billing businesses are willing to handle aged AR, and those that do want a premium cost. Our solution simplifies the procedure and makes us productive enough to handle low-value claims and old AR Recoveries profitably. These are a few of the characteristics of our method for AR recovery.</p>
+        <p className='text-center'>Every year, unpaid claims that are not adequately managed result in significant income losses. We have a committed team that works diligently to recover uncollectible accounts receivable, and they are quite effective at doing so. The collections business is well aware that the longer a bill remains unpaid, the less likely it is to be paid; but, instead of letting up on old AR recovery & invoices, pursue them. That serves as a signal to our team of account receivables services to begin looking for and looking into each overdue claim right away. Only a small number of medical AR billing businesses are willing to handle aged AR, and those that do want a premium cost. Our solution simplifies the procedure and makes us productive enough to handle low-value claims and old AR Recoveries profitably. These are a few of the characteristics of our method for AR recovery.</p>
         <div className='row pt-4'>
           <div className='col-lg-12 d-lg-flex d-block gap-3'>
 
@@ -182,9 +182,9 @@ const Recovery = () => {
 
         </div>
       </div>
-      <div className='bg_reco p-5'>
+      <div className='bg_reco p-5 mt-5'>
         <div className='text-start text-white'>
-          <p>Trivium MBS is an industry leader and trusted name in medical accounts receivable collections because we know how to get results. Our mastery of complex medical coding and AR management services sets us apart. But it’s our breadth of knowledge that allows us to shine. Our medical billing company successfully serves healthcare facilities of all types and sizes, and we specialize in medical billing for physicians, laboratories, radiology & imaging centers, and hospitals.
+          <p className=''>Trivium MBS is an industry leader and trusted name in medical accounts receivable collections because we know how to get results. Our mastery of complex medical coding and AR management services sets us apart. But it’s our breadth of knowledge that allows us to shine. Our medical billing company successfully serves healthcare facilities of all types and sizes, and we specialize in medical billing for physicians, laboratories, radiology & imaging centers, and hospitals.
             We know it’s difficult to remain entirely focused on patient care when you’re worried about your bottom line. If you’re spending valuable time and energy trying to diagnose finances, then perhaps it’s time to enlist the aid of a professional medical billing company like Trivium MBS.</p>
         </div>
 
