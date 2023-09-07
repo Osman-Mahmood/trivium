@@ -55,32 +55,32 @@ Schedule Demo
               <div className='img_header text-center'>
                 <img src={clock} alt="" />
                 <div className='mb-0 font_size'>7-14</div>
-                <p>Days Turnaround Time</p>
+                <p className='text-center'>Days Turnaround Time</p>
               </div>
               <div className='img_header text-center'>
                 {/* <img src={vol} alt="" /> */}
                 <BiSortDown className='icon_height'/>
                 
                 <div className='mb-0 font_size' >30%</div>
-                <p>Reduction in A/R</p>
+                <p className='text-center'>Reduction in A/R</p>
               </div>
               <div className='img_header text-center'>
                 <img src={vol} alt="" />
                 {/* <BsGraphUpArrow /> */}
                 <div className='mb-0 font_size'>15-20%</div>
-                <p>Revenue Increase</p>
+                <p className='text-center'>Revenue Increase</p>
               </div>
               <div className='img_header text-center'>
                 {/* <img src={clock} alt="" /> */}
                 <AiOutlineDollarCircle className='icon_height'/>
                 <div className='mb-0 font_size'>90%+</div>
-                <p>Collection Ratios</p>
+                <p className='text-center'>Collection Ratios</p>
               </div>
               <div className='img_header text-center'>
                 {/* <img src={clock} alt="" /> */}
                 <AiOutlineFileSync className='icon_height'/>
                 <div className='mb-0 font_size'>88%</div>
-                <p>First Pass Clean Claims Rate</p>
+                <p className='text-center'>First Pass Clean Claims Rate</p>
               </div>
             </div>
           </div>

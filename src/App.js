@@ -19,7 +19,6 @@ import Surgery from "./Components/Services/Surgery";
 import Workforce from "./Components/Services/Workforce";
 import PhsicalBilling from "./Components/Services/PhsicalBilling";
 import Order from "./Components/Order";
-
 function App() {
   return (
     <div className="App">
@@ -40,13 +39,12 @@ function App() {
           <Route exact path="/surgery" element={<Surgery />} />
           <Route exact path="/workforce" element={<Workforce />} />
           <Route exact path="/laboratory/census" element={<Order />} />
-          {/* <Route exact path="/testi" element={ <TestimonialPage />} /> */}
           <Route exact path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
 
-      
+
     </div>
   );
 }

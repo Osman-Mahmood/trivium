@@ -18,7 +18,7 @@ const ContactForm = () => {
         const latitude = position.coords.latitude;
         const longitude = position.coords.longitude;
         const userPoint = turf.point([longitude, latitude]);
-        for (let i = 0; i<countries.features.length; i++) {
+        for (let i = 0; i < countries.features.length; i++) {
           if (turf.booleanPointInPolygon(userPoint, countries.features[i])) {
             setCountry(countries.features[i].properties.ISO_A2);
             return;
@@ -137,13 +137,6 @@ const ContactForm = () => {
               title="Embedded Content"
             ></iframe>
 
-            {/* <iframe
-              src="https://goo.gl/maps/HeFJwJiNTY3MzPHH8"
-              width="100%"
-              height="400"
-              title="Embedded Content"
-              allowFullScreen
-            ></iframe> */}
           </div>
         </div>
       </div>
@@ -152,13 +145,13 @@ const ContactForm = () => {
           <div className='col-lg-3 revenue_box text-center'>
             <img src={phone} alt="" className='img-fluid mb-3' />
             <p className='text-center'>PHONE</p>
-            <p className='text-center'>+1 800 640 6409</p>
+            <p className='text-center'>+0 000 000 0000</p>
 
           </div>
           <div className='col-lg-3 revenue_box text-center'>
             <img src={fax} alt="" className='img-fluid mb-3' />
             <p className='text-center'>FAX</p>
-            <p className='text-center'>+1 800 640 6409</p>
+            <p className='text-center'>+0 000 000 0000</p>
 
           </div>
           <div className='col-lg-3 revenue_box text-center'>
