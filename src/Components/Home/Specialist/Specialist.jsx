@@ -14,7 +14,7 @@ const Specialist = () => {
         <div className='row justify-content-between gap-1'>
             <div className='col-lg-12 d-lg-flex d-block gap-3'>
             <div className='col-lg-3 p-2 mb-2 revenue_box text-center'>
-                <NavLink to="/sepcial/hepatology" className="ms-0">
+                <NavLink to="/specialties/hepatology" className="ms-0">
 
                 <GiStickingPlaster className="icon_height mb-3"/>
     <p className='text-center mb-0'>
@@ -23,7 +23,7 @@ const Specialist = () => {
   
 </div>
 <div className='col-lg-3 p-2 mb-2 revenue_box text-center'>
-    <NavLink to="/sepcial/cardiology" className="ms-0">
+    <NavLink to="/specialties/cardiology" className="ms-0">
     <FaWheelchair className="icon_height mb-3" />
     <p className='text-center mb-0'>
     Sepcial/Sepatology</p>
@@ -31,7 +31,7 @@ const Specialist = () => {
    
 </div>
 <div className='col-lg-3 p-2 mb-2 revenue_box text-center'>
-    <NavLink to="/sepcial/generalsurgery" className="ms-0">
+    <NavLink to="/specialties/generalsurgery" className="ms-0">
     <FaViruses className="icon_height mb-3" />
     <p className='text-center mb-0'>
     General Surgery</p>
@@ -39,7 +39,7 @@ const Specialist = () => {
   
 </div>
 <div className='col-lg-3 p-2 mb-2 revenue_box text-center'>
-<NavLink to="/sepcial/oncology" className="ms-0">
+<NavLink to="/specialties/oncology" className="ms-0">
     {/* <img src={specialicon1} alt="" className='img-fluid text-center special_img'/> */}
     <FaHands className="icon_height mb-3 text-center"/>
  
@@ -54,7 +54,7 @@ Oncology</p>
         <div className='row justify-content-between gap-1 mt-lg-3 mt-0'>
             <div className='col-lg-12 d-lg-flex d-block gap-3'>
             <div className='col-lg-3 p-2 revenue_box text-center'>
-                <NavLink to="/sepcial/psychology" className="ms-0">
+                <NavLink to="/specialties/psychology" className="ms-0">
                 <FaPeopleArrows className="icon_height mb-3"/>
     <p className='text-center mb-0'>
         Psychology
@@ -63,7 +63,7 @@ Oncology</p>
   
 </div>
 <div className='col-lg-3 p-2 revenue_box text-center'>
-    <NavLink to="/sepcial/dermatology" className="ms-0">
+    <NavLink to="/specialties/dermatology" className="ms-0">
     <GiHiveMind className="icon_height mb-3" />
     <p className='text-center mb-0'>
     Dermatology</p>
@@ -71,7 +71,7 @@ Oncology</p>
    
 </div>
 <div className='col-lg-3  p-2 revenue_box text-center'>
-    <NavLink to="/sepcial/prostheses" className="ms-0">
+    <NavLink to="/specialties/prostheses" className="ms-0">
     <GiHeartOrgan className="icon_height mb-3"/>
     <p className='text-center mb-0'>
         Prostheses
@@ -80,7 +80,7 @@ Oncology</p>
    
 </div> 
 <div className='col-lg-3 p-2 revenue_box text-center'>
-        <NavLink to="/sepcial/traumatology" className="ms-0">
+        <NavLink to="/specialties/traumatology" className="ms-0">
         <GiHeartOrgan className="icon_height mb-3"/>
     <p className='text-center mb-0'>
     Traumatology</p>
@@ -89,7 +89,7 @@ Oncology</p>
 
             </div>
 <div className='text-end pt-3 mb-5'>
-    <NavLink to="/sepcial">
+    <NavLink to="/specialties">
     <button className='btn btn_demo text-white'>View All Specialties</button>
     </NavLink>
 

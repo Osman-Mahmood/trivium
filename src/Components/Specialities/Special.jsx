@@ -286,7 +286,7 @@ const Special = () => {
                               {
                                     dataArr.map((item) => {
                                           return <div className='col-lg-2 col-12 m-lg-2 m-0 mb-lg-0 mb-3 text-center revenue_box' 
-                                          onClick={()=>{navigate(`/sepcial/${item.route}`)}}>
+                                          onClick={()=>{navigate(`/specialties/${item.route}`)}}>
                                               <img src={item.logo} alt="" />
                                                 <p className='text-center'>{item.title}</p>
                                           </div>

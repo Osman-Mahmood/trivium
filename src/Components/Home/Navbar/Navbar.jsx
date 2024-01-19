@@ -57,7 +57,7 @@ const Navigation = () => {
                                 Laboratory Billing
                             </NavLink>
                             <br />
-                            <NavLink to="covery" className="">
+                            <NavLink to="discovery" className="">
 
                                 Coverage Discovery
                             </NavLink>
@@ -71,7 +71,7 @@ const Navigation = () => {
                             <NavLink to="physical" className="">Physician Billing
                             </NavLink>
                         </NavDropdown>
-                        <NavLink className="center" to="sepcial" >
+                        <NavLink className="center" to="specialties" >
                             Specialties
                         </NavLink>
                         {/* <NavLink className=" center" to="testi">

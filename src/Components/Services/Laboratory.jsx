@@ -35,27 +35,27 @@ const Laboratory = () => {
               <h6 className=' '>Order and <br /> Demographic <br /> Management</h6>
             </div>
               </NavLink>
-        <NavLink to="/sepcial/toxicology">
+        <NavLink to="/specialties/toxicology">
         <div className='col-lg-12 height col-12 revenue_box text-center'>
                 <img src={lab2} alt="" />
 
                 <h5 className=''>Toxicology</h5>
               </div>
         </NavLink>
-              <NavLink to="/sepcial/molecularlab">
+              <NavLink to="/specialties/molecularlab">
               <div className='col-lg-12 height col-12 revenue_box text-center'>
                 <img src={lab3} alt="" />
 
                 <h5 className=''>Molecular</h5>
               </div>
               </NavLink>
-              <NavLink to="/sepcial/clinical">
+              <NavLink to="/specialties/clinical">
               <div className='col-lg-12 height  col-12 revenue_box text-center'>
                 <img src={lab4} alt="" />
                 <h5 className=''>Clinical</h5>
               </div>
               </NavLink>
-              <NavLink to="/sepcial/pathology">
+              <NavLink to="/specialties/pathology">
               <div className='col-lg-12 height col-12 revenue_box text-center'>
                 <img src={lab5} alt="" />
                 <h5 className=''>Pathology</h5>

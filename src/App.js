@@ -30,12 +30,12 @@ function App() {
           <Route exact path="/medical" element={<MedicalBillingPage />} />
           <Route exact path="/imaging" element={<ImageBillingPage />} />
           <Route exact path="/hospital" element={<HospitalPage />} />
-          <Route exact path="/sepcial" element={<SpecialitiesPage />} />
-          <Route exact path="/sepcial/:title" element={<Hepatology />} />
+          <Route exact path="/specialties" element={<SpecialitiesPage />} />
+          <Route exact path="/specialties/:title" element={<Hepatology />} />
           <Route exact path="/recovery" element={<RecoveryPage />} />
           <Route exact path="/physical" element={<PhsicalBilling />} />
           <Route exact path="/laboratory" element={<Laboratory />} />
-          <Route exact path="/covery" element={<Covery />} />
+          <Route exact path="/discovery" element={<Covery />} />
           <Route exact path="/surgery" element={<Surgery />} />
           <Route exact path="/workforce" element={<Workforce />} />
           <Route exact path="/laboratory/census" element={<Order />} />
